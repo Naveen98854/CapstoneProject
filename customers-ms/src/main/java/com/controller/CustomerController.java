@@ -1,0 +1,37 @@
+package com.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.entity.Customer;
+import com.service.CustomerService;
+
+@RestController
+@RequestMapping("/customers")
+public class CustomerController {
+
+	@Autowired
+    private CustomerService customerService;
+
+	@PostMapping
+    public ResponseEntity<Customer> registerCustomer(@RequestBody Customer customer) {
+        Customer registeredCustomer = customerService.registerCustomer(customer);
+        return ResponseEntity.ok(registeredCustomer);
+    }
+	
+	@PostMapping("/login")
+    public ResponseEntity<Customer> login(@RequestBody Customer customer) {
+        Customer authenticatedCustomer = customerService.authenticateCustomer(customer.getEmail(), customer.getPassword());
+        if (authenticatedCustomer != null) {
+            return ResponseEntity.ok(authenticatedCustomer);
+        } else {
+            return ResponseEntity.status(401).build();
+        }
+    }
+	
+	
+}
