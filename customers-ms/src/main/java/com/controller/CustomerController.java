@@ -26,12 +26,14 @@ public class CustomerController {
 	
 	//Logging in to book a room
 	@PostMapping("/login")
-    public ResponseEntity<Customer> login(@RequestBody Customer customer) {
+    public ResponseEntity<String> login(@RequestBody Customer customer) {
         Customer authenticatedCustomer = customerService.authenticateCustomer(customer.getEmail(), customer.getPassword());
         if (authenticatedCustomer != null) {
-            return ResponseEntity.ok(authenticatedCustomer);
+            String message = "You have successfully logged in, You can check for the rooms";
+
+            return ResponseEntity.ok(message);
         } else {
-            return ResponseEntity.status(401).build();
+            return ResponseEntity.status(401).body("Invalid Credentials");
         }
     }
 	
