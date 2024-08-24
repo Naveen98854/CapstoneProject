@@ -17,12 +17,14 @@ public class CustomerController {
 	@Autowired
     private CustomerService customerService;
 
+	//Registering a new customer
 	@PostMapping
     public ResponseEntity<Customer> registerCustomer(@RequestBody Customer customer) {
         Customer registeredCustomer = customerService.registerCustomer(customer);
         return ResponseEntity.ok(registeredCustomer);
     }
 	
+	//Logging in to book a room
 	@PostMapping("/login")
     public ResponseEntity<Customer> login(@RequestBody Customer customer) {
         Customer authenticatedCustomer = customerService.authenticateCustomer(customer.getEmail(), customer.getPassword());
