@@ -8,6 +8,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
 
 @Entity
 @Table(name="customers")
@@ -19,14 +23,22 @@ public class Customer {
 	private Integer customerId;
 	
 	@Column(name="customer_name")
+	@NotEmpty(message = "Customer name cannot be empty")
 	private String customerName;
 	
 	@Column(name="phone_number")
+	@NotEmpty(message = "Phone number cannot be empty")
 	private String phoneNumber;
 	
+	@Email(message = "Email should be valid")
+	@NotEmpty(message = "Email cannot be empty")
 	private String email;
+	
+	@NotEmpty(message = "Password cannot be empty")
 	private String password;
 	
+	@Past(message = "Date of birth must be a past date")
+	@NotNull(message = "Date of birth cannot be null")
 	@Column(name="dateofbirth")
 	private Date dateOfBirth;
 

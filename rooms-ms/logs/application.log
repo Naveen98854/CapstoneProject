@@ -1,0 +1,202 @@
+2024-08-28T16:47:18.154+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 137576 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-28T16:47:18.155+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T16:47:19.445+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T16:47:19.620+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interfaces.
+2024-08-28T16:47:19.774+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-28T16:47:19.775+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T16:47:19.775+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28T16:47:19.796+05:30  INFO 137576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T16:47:19.797+05:30  INFO 137576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1635 ms
+2024-08-28T16:47:19.861+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-28T16:47:19.884+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2677c87b
+2024-08-28T16:47:19.884+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-28T16:47:19.886+05:30  INFO 137576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T16:47:19.902+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T16:47:19.902+05:30  INFO 137576 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T16:47:19.904+05:30  INFO 137576 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-28T16:47:19.904+05:30  WARN 137576 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-28T16:47:19.920+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T16:47:19.960+05:30  INFO 137576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28T16:47:19.962+05:30  INFO 137576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T16:47:20.090+05:30  WARN 137576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T16:47:20.253+05:30  INFO 137576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T16:47:20.265+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-28T16:47:20.270+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Started RoomMain in 2.377 seconds (process running for 20287.553)
+2024-08-28T16:47:20.274+05:30  INFO 137576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T17:07:26.318+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28T17:07:26.370+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-28T17:07:26.565+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 192 ms
+2024-08-28T17:07:27.119+05:30 DEBUG 137576 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-28T17:13:00.628+05:30  INFO 137576 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T17:13:01.059+05:30  INFO 137576 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-28T17:13:01.090+05:30  INFO 137576 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-28T17:13:01.282+05:30  INFO 137576 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T17:13:01.342+05:30  INFO 137576 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-28T17:13:01.465+05:30  INFO 137576 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-28T17:13:02.290+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 137576 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-28T17:13:02.290+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T17:13:03.580+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T17:13:03.761+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181 ms. Found 1 JPA repository interfaces.
+2024-08-28T17:13:03.872+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-28T17:13:03.873+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T17:13:03.875+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28T17:13:03.897+05:30  INFO 137576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T17:13:03.897+05:30  INFO 137576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1603 ms
+2024-08-28T17:13:03.955+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-28T17:13:04.049+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12595b87
+2024-08-28T17:13:04.050+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-28T17:13:04.053+05:30  INFO 137576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T17:13:04.071+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T17:13:04.072+05:30  INFO 137576 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T17:13:04.074+05:30  INFO 137576 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-28T17:13:04.074+05:30  WARN 137576 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-28T17:13:04.094+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T17:13:04.185+05:30  INFO 137576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28T17:13:04.187+05:30  INFO 137576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T17:13:04.363+05:30  WARN 137576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T17:13:04.507+05:30  INFO 137576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T17:13:04.525+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-28T17:13:04.531+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Started RoomMain in 2.395 seconds (process running for 21831.808)
+2024-08-28T17:13:04.533+05:30  INFO 137576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T17:13:48.909+05:30  INFO 137576 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T17:13:49.048+05:30  INFO 137576 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-28T17:13:49.112+05:30  INFO 137576 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T17:13:49.137+05:30  INFO 137576 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-08-28T17:13:49.169+05:30  INFO 137576 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-08-28T17:13:49.338+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 137576 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-28T17:13:49.339+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T17:13:50.235+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T17:13:50.515+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 279 ms. Found 1 JPA repository interfaces.
+2024-08-28T17:13:50.641+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-28T17:13:50.641+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T17:13:50.643+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28T17:13:50.664+05:30  INFO 137576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T17:13:50.664+05:30  INFO 137576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1322 ms
+2024-08-28T17:13:50.717+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-08-28T17:13:50.811+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b96cab6
+2024-08-28T17:13:50.811+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-08-28T17:13:50.813+05:30  INFO 137576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T17:13:50.831+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T17:13:50.832+05:30  INFO 137576 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T17:13:50.836+05:30  INFO 137576 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-28T17:13:50.836+05:30  WARN 137576 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-28T17:13:50.848+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T17:13:50.903+05:30  INFO 137576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28T17:13:50.903+05:30  INFO 137576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T17:13:51.032+05:30  WARN 137576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T17:13:51.186+05:30  INFO 137576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T17:13:51.202+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-28T17:13:51.207+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Started RoomMain in 1.901 seconds (process running for 21878.484)
+2024-08-28T17:13:51.209+05:30  INFO 137576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T17:24:28.309+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28T17:24:28.334+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-28T17:24:28.403+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 68 ms
+2024-08-28T17:24:28.584+05:30  INFO 137576 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get room details for room ID: 12
+2024-08-28T17:24:28.585+05:30  INFO 137576 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding room by ID: 12
+2024-08-28T17:24:28.677+05:30 DEBUG 137576 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-28T17:24:28.719+05:30  WARN 137576 --- [http-nio-9009-exec-1] com.service.RoomService                  : Room not found with ID: 12
+2024-08-28T17:24:28.719+05:30  WARN 137576 --- [http-nio-9009-exec-1] com.controller.RoomController            : Room not found with ID: 12
+2024-08-28T17:24:28.781+05:30  WARN 137576 --- [http-nio-9009-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 12]
+2024-08-28T17:26:04.730+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-28T17:26:04.744+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.service.RoomService                  : Finding room by ID: 102
+2024-08-28T17:26:04.773+05:30 DEBUG 137576 --- [http-nio-9009-exec-6] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-28T17:26:04.811+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.service.RoomService                  : Found room with ID: 102
+2024-08-28T17:26:04.812+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-28T17:26:45.614+05:30  INFO 137576 --- [http-nio-9009-exec-3] com.controller.RoomController            : Request received to get room details for room ID: 177
+2024-08-28T17:26:45.615+05:30  INFO 137576 --- [http-nio-9009-exec-3] com.service.RoomService                  : Finding room by ID: 177
+2024-08-28T17:26:45.617+05:30 DEBUG 137576 --- [http-nio-9009-exec-3] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-28T17:26:45.620+05:30  WARN 137576 --- [http-nio-9009-exec-3] com.service.RoomService                  : Room not found with ID: 177
+2024-08-28T17:26:45.620+05:30  WARN 137576 --- [http-nio-9009-exec-3] com.controller.RoomController            : Room not found with ID: 177
+2024-08-28T17:26:45.634+05:30  WARN 137576 --- [http-nio-9009-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 177]
+2024-08-28T17:27:08.108+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-28T17:27:08.109+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.service.RoomService                  : Finding room by ID: 102
+2024-08-28T17:27:08.112+05:30 DEBUG 137576 --- [http-nio-9009-exec-5] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-28T17:27:08.123+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.service.RoomService                  : Found room with ID: 102
+2024-08-28T17:27:08.123+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-28T23:36:28.884+05:30  INFO 112584 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 112584 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-28T23:36:28.889+05:30  INFO 112584 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T23:36:28.967+05:30  INFO 112584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T23:36:28.967+05:30  INFO 112584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T23:36:30.393+05:30  INFO 112584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T23:36:30.641+05:30  INFO 112584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 1 JPA repository interfaces.
+2024-08-28T23:36:31.280+05:30  INFO 112584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-28T23:36:31.290+05:30  INFO 112584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T23:36:31.291+05:30  INFO 112584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28T23:36:31.366+05:30  INFO 112584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T23:36:31.367+05:30  INFO 112584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2398 ms
+2024-08-28T23:36:31.522+05:30  INFO 112584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-28T23:36:31.843+05:30  INFO 112584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79161766
+2024-08-28T23:36:31.846+05:30  INFO 112584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-28T23:36:31.905+05:30  INFO 112584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T23:36:31.972+05:30  INFO 112584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28T23:36:31.975+05:30  INFO 112584 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-08-28T23:36:32.130+05:30  INFO 112584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T23:36:32.281+05:30  INFO 112584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T23:36:32.341+05:30  INFO 112584 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-28T23:36:32.343+05:30  WARN 112584 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-28T23:36:32.550+05:30  INFO 112584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-28T23:36:33.300+05:30  INFO 112584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28T23:36:33.305+05:30  INFO 112584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T23:36:33.916+05:30  WARN 112584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T23:36:34.339+05:30  WARN 112584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-28T23:36:34.382+05:30  INFO 112584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-28T23:36:34.395+05:30  INFO 112584 --- [restartedMain] com.RoomMain                             : Started RoomMain in 5.932 seconds (process running for 6.371)
+2024-08-28T23:37:14.755+05:30  INFO 112584 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28T23:37:14.757+05:30  INFO 112584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-28T23:37:14.758+05:30  INFO 112584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-28T23:37:18.506+05:30  INFO 112584 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 3297 ms
