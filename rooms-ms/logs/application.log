@@ -1,32 +1,77 @@
-2024-08-28T16:47:18.154+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 137576 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-28T16:47:18.155+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-28T16:47:19.445+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-28T16:47:19.620+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interfaces.
-2024-08-28T16:47:19.774+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-28T16:47:19.775+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-28T16:47:19.775+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-28T16:47:19.796+05:30  INFO 137576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-28T16:47:19.797+05:30  INFO 137576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1635 ms
-2024-08-28T16:47:19.861+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-08-28T16:47:19.884+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2677c87b
-2024-08-28T16:47:19.884+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-08-28T16:47:19.886+05:30  INFO 137576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-28T16:47:19.902+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T16:47:19.902+05:30  INFO 137576 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-28T16:47:19.904+05:30  INFO 137576 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-28T16:47:19.904+05:30  WARN 137576 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-28T16:47:19.920+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T16:47:19.960+05:30  INFO 137576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-28T16:47:19.962+05:30  INFO 137576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-28T16:47:20.090+05:30  WARN 137576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-28T16:47:20.253+05:30  INFO 137576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-08-28T16:47:20.265+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-28T16:47:20.270+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Started RoomMain in 2.377 seconds (process running for 20287.553)
-2024-08-28T16:47:20.274+05:30  INFO 137576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-08-28T17:07:26.318+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-28T17:07:26.370+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-28T17:07:26.565+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 192 ms
-2024-08-28T17:07:27.119+05:30 DEBUG 137576 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+2024-08-30T09:12:41.866+05:30  WARN 97920 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h41m22s329ms496µs300ns).
+2024-08-30T09:14:13.180+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:19:13.212+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:24:13.256+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:29:13.283+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:34:13.365+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:39:13.463+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:44:13.554+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:49:13.646+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:54:13.721+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T09:59:13.789+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:04:13.854+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:07:42.581+05:30  INFO 97920 --- [http-nio-9009-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 9608 ms
+2024-08-30T10:09:13.918+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:14:13.977+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:19:14.057+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:25:03.094+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 136392 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-30T10:25:03.099+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-30T10:25:03.176+05:30  INFO 136392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-30T10:25:03.178+05:30  INFO 136392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-30T10:25:06.241+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-30T10:25:07.081+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 828 ms. Found 1 JPA repository interfaces.
+2024-08-30T10:25:07.438+05:30  INFO 136392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-30T10:25:08.379+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-30T10:25:08.404+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-30T10:25:08.406+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-30T10:25:08.592+05:30  INFO 136392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-30T10:25:08.594+05:30  INFO 136392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5414 ms
+2024-08-30T10:25:08.979+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-30T10:25:09.456+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@254404cd
+2024-08-30T10:25:09.460+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-30T10:25:09.513+05:30  INFO 136392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-30T10:25:09.616+05:30  INFO 136392 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-30T10:25:09.619+05:30  INFO 136392 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-08-30T10:25:09.861+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:25:10.102+05:30  INFO 136392 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-30T10:25:10.189+05:30  INFO 136392 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-30T10:25:10.191+05:30  WARN 136392 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-30T10:25:10.485+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:25:11.304+05:30  INFO 136392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-30T10:25:11.310+05:30  INFO 136392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30T10:25:11.879+05:30  WARN 136392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-30T10:25:12.581+05:30  WARN 136392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-30T10:25:12.729+05:30  INFO 136392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-30T10:25:12.889+05:30  WARN 136392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-30T10:25:12.919+05:30  INFO 136392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-30T10:25:13.024+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-30T10:25:13.031+05:30  INFO 136392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-30T10:25:13.396+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-30T10:25:13.401+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-30T10:25:13.405+05:30  INFO 136392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-30T10:25:13.411+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724993713410 with initial instances count: 2
+2024-08-30T10:25:13.414+05:30  INFO 136392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-30T10:25:13.416+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724993713416, current=UP, previous=STARTING]
+2024-08-30T10:25:13.418+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-30T10:25:13.449+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-30T10:25:13.451+05:30  INFO 136392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-30T10:25:13.471+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-30T10:25:13.571+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Started RoomMain in 11.726 seconds (process running for 13.909)
+2024-08-30T10:26:06.398+05:30  INFO 136392 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30T10:26:06.399+05:30  INFO 136392 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-30T10:26:06.412+05:30  INFO 136392 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2024-08-30T10:27:04.334+05:30  INFO 136392 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 5630 ms
+2024-08-30T10:30:13.124+05:30  INFO 136392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:31:14.427+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-30T10:31:14.432+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding room by ID: 102
+2024-08-30T10:31:14.897+05:30 DEBUG 136392 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
     select
         r1_0.room_id,
         r1_0.availability_status,
@@ -38,73 +83,27 @@
         rooms r1_0 
     where
         r1_0.room_id=?
-2024-08-28T17:13:00.628+05:30  INFO 137576 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2024-08-28T17:13:01.059+05:30  INFO 137576 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-28T17:13:01.090+05:30  INFO 137576 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-08-28T17:13:01.282+05:30  INFO 137576 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-28T17:13:01.342+05:30  INFO 137576 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2024-08-28T17:13:01.465+05:30  INFO 137576 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2024-08-28T17:13:02.290+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 137576 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-28T17:13:02.290+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-28T17:13:03.580+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-28T17:13:03.761+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181 ms. Found 1 JPA repository interfaces.
-2024-08-28T17:13:03.872+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-28T17:13:03.873+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-28T17:13:03.875+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-28T17:13:03.897+05:30  INFO 137576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-28T17:13:03.897+05:30  INFO 137576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1603 ms
-2024-08-28T17:13:03.955+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2024-08-28T17:13:04.049+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12595b87
-2024-08-28T17:13:04.050+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2024-08-28T17:13:04.053+05:30  INFO 137576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-28T17:13:04.071+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T17:13:04.072+05:30  INFO 137576 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-28T17:13:04.074+05:30  INFO 137576 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-28T17:13:04.074+05:30  WARN 137576 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-28T17:13:04.094+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T17:13:04.185+05:30  INFO 137576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-28T17:13:04.187+05:30  INFO 137576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-28T17:13:04.363+05:30  WARN 137576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-28T17:13:04.507+05:30  INFO 137576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-08-28T17:13:04.525+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-28T17:13:04.531+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Started RoomMain in 2.395 seconds (process running for 21831.808)
-2024-08-28T17:13:04.533+05:30  INFO 137576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-08-28T17:13:48.909+05:30  INFO 137576 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2024-08-28T17:13:49.048+05:30  INFO 137576 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-28T17:13:49.112+05:30  INFO 137576 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-28T17:13:49.137+05:30  INFO 137576 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2024-08-28T17:13:49.169+05:30  INFO 137576 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
-2024-08-28T17:13:49.338+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 137576 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-28T17:13:49.339+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-28T17:13:50.235+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-28T17:13:50.515+05:30  INFO 137576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 279 ms. Found 1 JPA repository interfaces.
-2024-08-28T17:13:50.641+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-28T17:13:50.641+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-28T17:13:50.643+05:30  INFO 137576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-28T17:13:50.664+05:30  INFO 137576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-28T17:13:50.664+05:30  INFO 137576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1322 ms
-2024-08-28T17:13:50.717+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2024-08-28T17:13:50.811+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b96cab6
-2024-08-28T17:13:50.811+05:30  INFO 137576 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2024-08-28T17:13:50.813+05:30  INFO 137576 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-28T17:13:50.831+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T17:13:50.832+05:30  INFO 137576 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-28T17:13:50.836+05:30  INFO 137576 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-28T17:13:50.836+05:30  WARN 137576 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-28T17:13:50.848+05:30  INFO 137576 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T17:13:50.903+05:30  INFO 137576 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-28T17:13:50.903+05:30  INFO 137576 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-28T17:13:51.032+05:30  WARN 137576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-28T17:13:51.186+05:30  INFO 137576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-08-28T17:13:51.202+05:30  INFO 137576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-28T17:13:51.207+05:30  INFO 137576 --- [restartedMain] com.RoomMain                             : Started RoomMain in 1.901 seconds (process running for 21878.484)
-2024-08-28T17:13:51.209+05:30  INFO 137576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-08-28T17:24:28.309+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-28T17:24:28.334+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-28T17:24:28.403+05:30  INFO 137576 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 68 ms
-2024-08-28T17:24:28.584+05:30  INFO 137576 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get room details for room ID: 12
-2024-08-28T17:24:28.585+05:30  INFO 137576 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding room by ID: 12
-2024-08-28T17:24:28.677+05:30 DEBUG 137576 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+2024-08-30T10:31:15.111+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Found room with ID: 102
+2024-08-30T10:31:15.112+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-30T10:31:15.891+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Request received to get rooms by location: hyderabad
+2024-08-30T10:31:15.892+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Finding rooms by location: hyderabad
+2024-08-30T10:31:16.117+05:30 DEBUG 136392 --- [http-nio-9009-exec-9] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-30T10:31:16.127+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Found 2 rooms for location: hyderabad
+2024-08-30T10:31:16.127+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
+2024-08-30T10:31:49.434+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-30T10:31:49.435+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding room by ID: 102
+2024-08-30T10:31:49.440+05:30 DEBUG 136392 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
     select
         r1_0.room_id,
         r1_0.availability_status,
@@ -116,12 +115,143 @@
         rooms r1_0 
     where
         r1_0.room_id=?
-2024-08-28T17:24:28.719+05:30  WARN 137576 --- [http-nio-9009-exec-1] com.service.RoomService                  : Room not found with ID: 12
-2024-08-28T17:24:28.719+05:30  WARN 137576 --- [http-nio-9009-exec-1] com.controller.RoomController            : Room not found with ID: 12
-2024-08-28T17:24:28.781+05:30  WARN 137576 --- [http-nio-9009-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 12]
-2024-08-28T17:26:04.730+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.controller.RoomController            : Request received to get room details for room ID: 102
-2024-08-28T17:26:04.744+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.service.RoomService                  : Finding room by ID: 102
-2024-08-28T17:26:04.773+05:30 DEBUG 137576 --- [http-nio-9009-exec-6] org.hibernate.SQL                        : 
+2024-08-30T10:31:49.446+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Found room with ID: 102
+2024-08-30T10:31:49.447+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-30T10:31:51.111+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Request received to get rooms by location: hyderabad
+2024-08-30T10:31:51.112+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Finding rooms by location: hyderabad
+2024-08-30T10:31:51.117+05:30 DEBUG 136392 --- [http-nio-9009-exec-9] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-30T10:31:51.121+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Found 2 rooms for location: hyderabad
+2024-08-30T10:31:51.122+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
+2024-08-30T10:35:13.173+05:30  INFO 136392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:36:07.377+05:30  INFO 136392 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2024-08-30T10:36:07.425+05:30  INFO 136392 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
+2024-08-30T10:36:07.426+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994367426, current=DOWN, previous=UP]
+2024-08-30T10:36:07.427+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-30T10:36:07.485+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-30T10:36:07.540+05:30  INFO 136392 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-30T10:36:07.553+05:30  INFO 136392 --- [Thread-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-30T10:36:07.680+05:30  INFO 136392 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30T10:36:07.742+05:30  INFO 136392 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-30T10:36:07.850+05:30  INFO 136392 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-30T10:36:07.856+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-30T10:36:10.893+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-30T10:36:10.921+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
+2024-08-30T10:36:10.940+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-30T10:36:11.680+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 136392 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-30T10:36:11.680+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-30T10:36:13.626+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-30T10:36:14.060+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 433 ms. Found 1 JPA repository interfaces.
+2024-08-30T10:36:14.135+05:30  INFO 136392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-30T10:36:14.226+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-30T10:36:14.227+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-30T10:36:14.227+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-30T10:36:14.258+05:30  INFO 136392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-30T10:36:14.259+05:30  INFO 136392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2570 ms
+2024-08-30T10:36:14.341+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-30T10:36:14.371+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@985a672
+2024-08-30T10:36:14.371+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-30T10:36:14.373+05:30  INFO 136392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-30T10:36:14.393+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:36:14.394+05:30  INFO 136392 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-30T10:36:14.397+05:30  INFO 136392 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-30T10:36:14.398+05:30  WARN 136392 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-30T10:36:14.417+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:36:14.460+05:30  INFO 136392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-30T10:36:14.461+05:30  INFO 136392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30T10:36:14.574+05:30  WARN 136392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-30T10:36:14.767+05:30  WARN 136392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-30T10:36:14.867+05:30  INFO 136392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-30T10:36:14.978+05:30  WARN 136392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-30T10:36:14.989+05:30  INFO 136392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-30T10:36:14.994+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-30T10:36:14.995+05:30  INFO 136392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-30T10:36:15.090+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-30T10:36:15.092+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-30T10:36:15.092+05:30  INFO 136392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-30T10:36:15.095+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724994375095 with initial instances count: 3
+2024-08-30T10:36:15.097+05:30  INFO 136392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-30T10:36:15.097+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994375097, current=UP, previous=STARTING]
+2024-08-30T10:36:15.099+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-30T10:36:15.106+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-30T10:36:15.107+05:30  INFO 136392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-30T10:36:15.115+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-30T10:36:15.206+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Started RoomMain in 3.804 seconds (process running for 675.486)
+2024-08-30T10:36:15.208+05:30  INFO 136392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-30T10:37:26.890+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 115584 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-30T10:37:26.893+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-30T10:37:26.949+05:30  INFO 115584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-30T10:37:26.950+05:30  INFO 115584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-30T10:37:30.036+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-30T10:37:31.101+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1051 ms. Found 1 JPA repository interfaces.
+2024-08-30T10:37:31.608+05:30  INFO 115584 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-30T10:37:33.170+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-30T10:37:33.202+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-30T10:37:33.204+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-30T10:37:33.508+05:30  INFO 115584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-30T10:37:33.509+05:30  INFO 115584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6559 ms
+2024-08-30T10:37:34.444+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-30T10:37:35.586+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61255eb3
+2024-08-30T10:37:35.592+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-30T10:37:35.749+05:30  INFO 115584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-30T10:37:36.013+05:30  INFO 115584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-30T10:37:36.020+05:30  INFO 115584 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-08-30T10:37:36.488+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:37:36.828+05:30  INFO 115584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-30T10:37:36.953+05:30  INFO 115584 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-30T10:37:36.958+05:30  WARN 115584 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-30T10:37:37.606+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:37:39.215+05:30  INFO 115584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-30T10:37:39.224+05:30  INFO 115584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30T10:37:40.456+05:30  WARN 115584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-30T10:37:41.725+05:30  WARN 115584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-30T10:37:41.997+05:30  INFO 115584 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-30T10:37:42.329+05:30  WARN 115584 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-30T10:37:42.380+05:30  INFO 115584 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-30T10:37:42.599+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-30T10:37:42.610+05:30  INFO 115584 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-30T10:37:42.660+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-30T10:37:42.660+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-30T10:37:43.439+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-30T10:37:43.447+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-30T10:37:43.455+05:30  INFO 115584 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-30T10:37:43.468+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724994463465 with initial instances count: 2
+2024-08-30T10:37:43.475+05:30  INFO 115584 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-30T10:37:43.477+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994463477, current=UP, previous=STARTING]
+2024-08-30T10:37:43.480+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-30T10:37:43.540+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-30T10:37:43.542+05:30  INFO 115584 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-30T10:37:43.610+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-30T10:37:43.796+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Started RoomMain in 17.62 seconds (process running for 18.245)
+2024-08-30T10:37:45.342+05:30  INFO 115584 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30T10:37:45.344+05:30  INFO 115584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-30T10:37:45.348+05:30  INFO 115584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-08-30T10:37:53.285+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 7649 ms
+2024-08-30T10:38:13.804+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-30T10:38:13.806+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding room by ID: 102
+2024-08-30T10:38:13.928+05:30 DEBUG 115584 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
     select
         r1_0.room_id,
         r1_0.availability_status,
@@ -133,70 +263,103 @@
         rooms r1_0 
     where
         r1_0.room_id=?
-2024-08-28T17:26:04.811+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.service.RoomService                  : Found room with ID: 102
-2024-08-28T17:26:04.812+05:30  INFO 137576 --- [http-nio-9009-exec-6] com.controller.RoomController            : Returning details for room ID: 102
-2024-08-28T17:26:45.614+05:30  INFO 137576 --- [http-nio-9009-exec-3] com.controller.RoomController            : Request received to get room details for room ID: 177
-2024-08-28T17:26:45.615+05:30  INFO 137576 --- [http-nio-9009-exec-3] com.service.RoomService                  : Finding room by ID: 177
-2024-08-28T17:26:45.617+05:30 DEBUG 137576 --- [http-nio-9009-exec-3] org.hibernate.SQL                        : 
-    select
-        r1_0.room_id,
-        r1_0.availability_status,
-        r1_0.description,
-        r1_0.location,
-        r1_0.price,
-        r1_0.room_type 
-    from
-        rooms r1_0 
-    where
-        r1_0.room_id=?
-2024-08-28T17:26:45.620+05:30  WARN 137576 --- [http-nio-9009-exec-3] com.service.RoomService                  : Room not found with ID: 177
-2024-08-28T17:26:45.620+05:30  WARN 137576 --- [http-nio-9009-exec-3] com.controller.RoomController            : Room not found with ID: 177
-2024-08-28T17:26:45.634+05:30  WARN 137576 --- [http-nio-9009-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 177]
-2024-08-28T17:27:08.108+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.controller.RoomController            : Request received to get room details for room ID: 102
-2024-08-28T17:27:08.109+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.service.RoomService                  : Finding room by ID: 102
-2024-08-28T17:27:08.112+05:30 DEBUG 137576 --- [http-nio-9009-exec-5] org.hibernate.SQL                        : 
-    select
-        r1_0.room_id,
-        r1_0.availability_status,
-        r1_0.description,
-        r1_0.location,
-        r1_0.price,
-        r1_0.room_type 
-    from
-        rooms r1_0 
-    where
-        r1_0.room_id=?
-2024-08-28T17:27:08.123+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.service.RoomService                  : Found room with ID: 102
-2024-08-28T17:27:08.123+05:30  INFO 137576 --- [http-nio-9009-exec-5] com.controller.RoomController            : Returning details for room ID: 102
-2024-08-28T23:36:28.884+05:30  INFO 112584 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 112584 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-28T23:36:28.889+05:30  INFO 112584 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-28T23:36:28.967+05:30  INFO 112584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-28T23:36:28.967+05:30  INFO 112584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-28T23:36:30.393+05:30  INFO 112584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-28T23:36:30.641+05:30  INFO 112584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 1 JPA repository interfaces.
-2024-08-28T23:36:31.280+05:30  INFO 112584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-28T23:36:31.290+05:30  INFO 112584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-28T23:36:31.291+05:30  INFO 112584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-28T23:36:31.366+05:30  INFO 112584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-28T23:36:31.367+05:30  INFO 112584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2398 ms
-2024-08-28T23:36:31.522+05:30  INFO 112584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-28T23:36:31.843+05:30  INFO 112584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79161766
-2024-08-28T23:36:31.846+05:30  INFO 112584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-28T23:36:31.905+05:30  INFO 112584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-28T23:36:31.972+05:30  INFO 112584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
-2024-08-28T23:36:31.975+05:30  INFO 112584 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2024-08-28T23:36:32.130+05:30  INFO 112584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T23:36:32.281+05:30  INFO 112584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-28T23:36:32.341+05:30  INFO 112584 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-28T23:36:32.343+05:30  WARN 112584 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-28T23:36:32.550+05:30  INFO 112584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-28T23:36:33.300+05:30  INFO 112584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-28T23:36:33.305+05:30  INFO 112584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-28T23:36:33.916+05:30  WARN 112584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-28T23:36:34.339+05:30  WARN 112584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2024-08-28T23:36:34.382+05:30  INFO 112584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-28T23:36:34.395+05:30  INFO 112584 --- [restartedMain] com.RoomMain                             : Started RoomMain in 5.932 seconds (process running for 6.371)
-2024-08-28T23:37:14.755+05:30  INFO 112584 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-28T23:37:14.757+05:30  INFO 112584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-28T23:37:14.758+05:30  INFO 112584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-08-28T23:37:18.506+05:30  INFO 112584 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 3297 ms
+2024-08-30T10:38:14.000+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.service.RoomService                  : Found room with ID: 102
+2024-08-30T10:38:14.001+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-30T10:42:42.713+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:43:08.593+05:30  INFO 115584 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-30T10:43:08.631+05:30  INFO 115584 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
+2024-08-30T10:43:08.632+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994788632, current=DOWN, previous=UP]
+2024-08-30T10:43:08.635+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-30T10:43:08.665+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-30T10:43:08.730+05:30  INFO 115584 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-30T10:43:08.747+05:30  INFO 115584 --- [Thread-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-30T10:43:08.886+05:30  INFO 115584 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30T10:43:08.946+05:30  INFO 115584 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-30T10:43:09.028+05:30  INFO 115584 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-30T10:43:09.032+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-30T10:43:12.053+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-30T10:43:12.070+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
+2024-08-30T10:43:12.086+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-30T10:43:12.570+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 115584 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-30T10:43:12.572+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-30T10:43:15.281+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-30T10:43:15.629+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 347 ms. Found 1 JPA repository interfaces.
+2024-08-30T10:43:15.696+05:30  INFO 115584 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-30T10:43:15.777+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-30T10:43:15.778+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-30T10:43:15.778+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-30T10:43:15.812+05:30  INFO 115584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-30T10:43:15.812+05:30  INFO 115584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3233 ms
+2024-08-30T10:43:15.899+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-30T10:43:15.922+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c1d906b
+2024-08-30T10:43:15.922+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-30T10:43:15.925+05:30  INFO 115584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-30T10:43:15.948+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:43:15.949+05:30  INFO 115584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-30T10:43:15.951+05:30  INFO 115584 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-30T10:43:15.951+05:30  WARN 115584 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-30T10:43:15.967+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-30T10:43:16.005+05:30  INFO 115584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-30T10:43:16.006+05:30  INFO 115584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30T10:43:16.122+05:30  WARN 115584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-30T10:43:16.377+05:30  WARN 115584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-30T10:43:16.527+05:30  INFO 115584 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-30T10:43:16.624+05:30  WARN 115584 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-30T10:43:16.635+05:30  INFO 115584 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-30T10:43:16.639+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-30T10:43:16.639+05:30  INFO 115584 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:43:16.648+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-30T10:43:16.676+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-30T10:43:16.678+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-30T10:43:16.679+05:30  INFO 115584 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-30T10:43:16.680+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724994796680 with initial instances count: 3
+2024-08-30T10:43:16.682+05:30  INFO 115584 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-30T10:43:16.682+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994796682, current=UP, previous=STARTING]
+2024-08-30T10:43:16.682+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-30T10:43:16.688+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-30T10:43:16.688+05:30  INFO 115584 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-30T10:43:16.702+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-30T10:43:16.774+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Started RoomMain in 4.374 seconds (process running for 351.201)
+2024-08-30T10:43:16.777+05:30  INFO 115584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-30T10:43:44.859+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-30T10:43:44.860+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-30T10:43:44.864+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-08-30T10:43:51.166+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 6285 ms
+2024-08-30T10:48:16.710+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:53:16.770+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T10:58:16.796+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:03:16.827+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:08:16.865+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:13:16.887+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:18:16.911+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:23:16.935+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:28:16.972+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:33:17.020+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:38:17.042+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:43:17.071+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:48:17.112+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:53:17.130+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T11:58:17.142+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:03:17.164+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:08:17.203+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:13:17.231+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:18:17.268+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:23:17.284+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:28:17.304+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:33:17.321+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:38:17.338+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:43:17.361+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:48:17.380+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:53:17.403+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T12:58:17.407+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T13:03:17.428+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T13:08:17.455+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T13:13:17.476+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T13:18:17.493+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-30T13:23:17.514+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

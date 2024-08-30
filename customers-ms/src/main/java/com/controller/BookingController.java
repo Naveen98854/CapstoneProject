@@ -1,12 +1,14 @@
 package com.controller;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -32,21 +34,32 @@ public class BookingController {
     @Autowired
     private BookingService bookingService;
 
+    //Booking a room 
     @PostMapping("/bookings")
-    public ResponseEntity<String> bookRoom(@Valid @RequestBody Booking booking) {
+    public ResponseEntity<String> bookRoom(@Valid @RequestBody Booking booking, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            // Extract and return validation errors
+            String errorMessages = bindingResult.getAllErrors().stream()
+                    .map(error -> error.getDefaultMessage())
+                    .collect(Collectors.joining(", "));
+            return ResponseEntity.badRequest().body(errorMessages);
+        }
+
         logger.info("Received request to book room for customer ID: {}", booking.getCustomerId());
         try {
             bookingService.saveBooking(booking);
-            logger.info("Room booked successfully for customer ID: {}", booking.getCustomerId());
             return new ResponseEntity<>("Room booked successfully!", HttpStatus.CREATED);
         } catch (CustomException e) {
             logger.error("Error during room booking for customer ID {}: {}", booking.getCustomerId(), e.getMessage());
-            throw e; // Re-throw the custom exception 
+            throw e; // Re-throw the custom exception
         } catch (Exception e) {
             logger.error("Unexpected error during room booking: {}", e.getMessage());
             throw new CustomException("Failed to book room: " + e.getMessage(), "BOOKING_ERROR");
         }
     }
+
+    
+    //Get the booking
 
     @GetMapping("/{customer_id}/bookings")
     public ResponseEntity<List<Booking>> getCustomerBookings(

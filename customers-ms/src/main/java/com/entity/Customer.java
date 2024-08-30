@@ -12,6 +12,8 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Past;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name="customers")
@@ -34,6 +36,8 @@ public class Customer {
 	@NotEmpty(message = "Email cannot be empty")
 	private String email;
 	
+	@Size(min = 8, message = "Password must be at least 8 characters long")
+	@Pattern(regexp = "^(?=.*[A-Z])(?=.*\\d)(?=.*[@#$%^&+=]).*$", message = "Password must contain at least one uppercase letter, one digit, and one special character")
 	@NotEmpty(message = "Password cannot be empty")
 	private String password;
 	

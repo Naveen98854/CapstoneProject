@@ -50,8 +50,13 @@ public class BookingService {
 
         if (roomResponse.getStatusCode() == HttpStatus.OK && roomResponse.getBody() != null) {
             logger.info("Room ID {} found. Proceeding to book the room.", booking.getRoomId());
+
+            // Ensure booking date is in the future (only if you have additional logic to verify here)
+            if (booking.getBookingDate().before(new Date())) {
+                throw new CustomException("Booking date must be in the future.", "INVALID_BOOKING_DATE");
+            }
+
             // Proceed with booking since the room exists and ID is available
-            booking.setBookingDate(new Date());
             booking.setStatus("BOOKED");
             bookingRepository.save(booking);
             logger.info("Room ID {} successfully booked for customer ID {}.", booking.getRoomId(), booking.getCustomerId());
@@ -60,6 +65,7 @@ public class BookingService {
             throw new CustomException("Room ID " + booking.getRoomId() + " is not available or does not exist.", "ROOM_NOT_FOUND");
         }
     }
+
     
     
     public List<Booking> getBookingsByCustomerId(int customerId) {

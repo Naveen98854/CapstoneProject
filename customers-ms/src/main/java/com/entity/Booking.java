@@ -10,6 +10,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -33,7 +34,7 @@ public class Booking {
 	@Column(name = "room_id")
 	private int roomId;
 
-	//@FutureOrPresent(message = "Booking date must be today or in the future")
+	@Future(message = "Booking date must be today or in the future")
 	@NotNull(message = "Booking date cannot be null")
 	@Column(name = "booking_date")
 	@DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS")

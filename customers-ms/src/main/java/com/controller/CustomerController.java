@@ -23,6 +23,7 @@ import com.exception.CustomException;
 import com.service.CustomerService;
 
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
 
@@ -57,17 +58,47 @@ public class CustomerController {
         }
     }
 
+ // Static inner class for login request
+    public static class LoginRequest {
+        @Email(message = "Email should be valid")
+        @NotEmpty(message = "Email cannot be empty")
+        private String email;
+
+        @NotEmpty(message = "Password cannot be empty")
+        private String password;
+
+        // Getters and setters
+        public String getEmail() {
+            return email;
+        }
+
+        public void setEmail(String email) {
+            this.email = email;
+        }
+
+        public String getPassword() {
+            return password;
+        }
+
+        public void setPassword(String password) {
+            this.password = password;
+        }
+    }
+
     @PostMapping("/login")
-    public ResponseEntity<String> login(@RequestBody Customer customer) {
-        logger.info("Received login request for email: {}", customer.getEmail());
+    public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest) {
+        String email = loginRequest.getEmail();
+        String password = loginRequest.getPassword();
+
+        logger.info("Received login request for email: {}", email);
         try {
-            Customer authenticatedCustomer = customerService.authenticateCustomer(customer.getEmail(), customer.getPassword());
+            Customer authenticatedCustomer = customerService.authenticateCustomer(email, password);
             if (authenticatedCustomer != null) {
-                String message = "You have successfully logged in, You can check for the rooms";
-                logger.info("Login successful for email: {}", customer.getEmail());
+                String message = "You have successfully logged in. You can check for the rooms.";
+                logger.info("Login successful for email: {}", email);
                 return ResponseEntity.ok(message);
             } else {
-                logger.warn("Login failed for email: {}", customer.getEmail());
+                logger.warn("Login failed for email: {}", email);
                 throw new CustomException("Invalid email or password", "AUTH_ERROR");
             }
         } catch (CustomException e) {
@@ -79,6 +110,13 @@ public class CustomerController {
         }
     }
 
+
+
+
+
+    
+    //-------------------------------------------------------------------------------//
+    
     @GetMapping("/rooms")
     public ResponseEntity<List<Room>> getRoomsByLocation(@RequestParam("location") @NotEmpty(message = "Location cannot be empty") String location) {
         logger.info("Received request to get rooms by location: {}", location);
