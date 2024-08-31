@@ -1,93 +1,67 @@
-2024-08-30T09:12:41.866+05:30  WARN 97920 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h41m22s329ms496µs300ns).
-2024-08-30T09:14:13.180+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:19:13.212+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:24:13.256+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:29:13.283+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:34:13.365+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:39:13.463+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:44:13.554+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:49:13.646+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:54:13.721+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T09:59:13.789+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:04:13.854+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:07:42.581+05:30  INFO 97920 --- [http-nio-9009-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 9608 ms
-2024-08-30T10:09:13.918+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:14:13.977+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:19:14.057+05:30  INFO 97920 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:25:03.094+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 136392 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-30T10:25:03.099+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-30T10:25:03.176+05:30  INFO 136392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-30T10:25:03.178+05:30  INFO 136392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-30T10:25:06.241+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-30T10:25:07.081+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 828 ms. Found 1 JPA repository interfaces.
-2024-08-30T10:25:07.438+05:30  INFO 136392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
-2024-08-30T10:25:08.379+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-30T10:25:08.404+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-30T10:25:08.406+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-30T10:25:08.592+05:30  INFO 136392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-30T10:25:08.594+05:30  INFO 136392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5414 ms
-2024-08-30T10:25:08.979+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-30T10:25:09.456+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@254404cd
-2024-08-30T10:25:09.460+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-30T10:25:09.513+05:30  INFO 136392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-30T10:25:09.616+05:30  INFO 136392 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
-2024-08-30T10:25:09.619+05:30  INFO 136392 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2024-08-30T10:25:09.861+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:25:10.102+05:30  INFO 136392 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-30T10:25:10.189+05:30  INFO 136392 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-30T10:25:10.191+05:30  WARN 136392 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-30T10:25:10.485+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:25:11.304+05:30  INFO 136392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-30T10:25:11.310+05:30  INFO 136392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-30T10:25:11.879+05:30  WARN 136392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-30T10:25:12.581+05:30  WARN 136392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2024-08-30T10:25:12.729+05:30  INFO 136392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-08-30T10:25:12.889+05:30  WARN 136392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-30T10:25:12.919+05:30  INFO 136392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-08-30T10:25:13.024+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-08-30T10:25:13.031+05:30  INFO 136392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-08-30T10:25:13.058+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-08-30T10:25:13.396+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2024-08-30T10:25:13.401+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-08-30T10:25:13.405+05:30  INFO 136392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-30T10:25:13.411+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724993713410 with initial instances count: 2
-2024-08-30T10:25:13.414+05:30  INFO 136392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
-2024-08-30T10:25:13.416+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724993713416, current=UP, previous=STARTING]
-2024-08-30T10:25:13.418+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
-2024-08-30T10:25:13.449+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-30T10:25:13.451+05:30  INFO 136392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
-2024-08-30T10:25:13.471+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
-2024-08-30T10:25:13.571+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Started RoomMain in 11.726 seconds (process running for 13.909)
-2024-08-30T10:26:06.398+05:30  INFO 136392 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-30T10:26:06.399+05:30  INFO 136392 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-30T10:26:06.412+05:30  INFO 136392 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
-2024-08-30T10:27:04.334+05:30  INFO 136392 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 5630 ms
-2024-08-30T10:30:13.124+05:30  INFO 136392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:31:14.427+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get room details for room ID: 102
-2024-08-30T10:31:14.432+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding room by ID: 102
-2024-08-30T10:31:14.897+05:30 DEBUG 136392 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
-    select
-        r1_0.room_id,
-        r1_0.availability_status,
-        r1_0.description,
-        r1_0.location,
-        r1_0.price,
-        r1_0.room_type 
-    from
-        rooms r1_0 
-    where
-        r1_0.room_id=?
-2024-08-30T10:31:15.111+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Found room with ID: 102
-2024-08-30T10:31:15.112+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Returning details for room ID: 102
-2024-08-30T10:31:15.891+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Request received to get rooms by location: hyderabad
-2024-08-30T10:31:15.892+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Finding rooms by location: hyderabad
-2024-08-30T10:31:16.117+05:30 DEBUG 136392 --- [http-nio-9009-exec-9] org.hibernate.SQL                        : 
+2024-08-31T08:31:19.933+05:30  INFO 133968 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 133968 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-31T08:31:19.958+05:30  INFO 133968 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-31T08:31:20.077+05:30  INFO 133968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-31T08:31:20.080+05:30  INFO 133968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-31T08:31:22.712+05:30  INFO 133968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-31T08:31:23.366+05:30  INFO 133968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 642 ms. Found 1 JPA repository interfaces.
+2024-08-31T08:31:23.736+05:30  INFO 133968 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-31T08:31:24.652+05:30  INFO 133968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-31T08:31:24.668+05:30  INFO 133968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-31T08:31:24.669+05:30  INFO 133968 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-31T08:31:24.770+05:30  INFO 133968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-31T08:31:24.771+05:30  INFO 133968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4689 ms
+2024-08-31T08:31:25.006+05:30  INFO 133968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-31T08:31:25.588+05:30  INFO 133968 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53d7f36b
+2024-08-31T08:31:25.592+05:30  INFO 133968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-31T08:31:25.690+05:30  INFO 133968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31T08:31:25.821+05:30  INFO 133968 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-31T08:31:25.824+05:30  INFO 133968 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-08-31T08:31:26.028+05:30  INFO 133968 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T08:31:26.207+05:30  INFO 133968 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-31T08:31:26.295+05:30  INFO 133968 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-31T08:31:26.297+05:30  WARN 133968 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-31T08:31:26.565+05:30  INFO 133968 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T08:31:27.169+05:30  INFO 133968 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31T08:31:27.172+05:30  INFO 133968 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T08:31:27.790+05:30  WARN 133968 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-31T08:31:28.416+05:30  INFO 133968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-31T08:31:28.564+05:30  INFO 133968 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-31T08:31:28.803+05:30  WARN 133968 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-31T08:31:28.839+05:30  INFO 133968 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-31T08:31:28.956+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-31T08:31:28.962+05:30  INFO 133968 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-31T08:31:28.994+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T08:31:29.326+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T08:31:29.329+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-31T08:31:29.332+05:30  INFO 133968 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-31T08:31:29.340+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1725073289337 with initial instances count: 0
+2024-08-31T08:31:29.344+05:30  INFO 133968 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-31T08:31:29.345+05:30  INFO 133968 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725073289345, current=UP, previous=STARTING]
+2024-08-31T08:31:29.348+05:30  INFO 133968 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T08:31:29.391+05:30  INFO 133968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-31T08:31:29.393+05:30  INFO 133968 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-31T08:31:29.407+05:30  INFO 133968 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T08:31:29.517+05:30  INFO 133968 --- [restartedMain] com.RoomMain                             : Started RoomMain in 10.453 seconds (process running for 11.026)
+2024-08-31T08:31:59.342+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T08:31:59.342+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T08:31:59.342+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T08:31:59.344+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T08:31:59.344+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T08:31:59.344+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-08-31T08:31:59.344+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T08:31:59.383+05:30  INFO 133968 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T08:32:18.119+05:30  INFO 133968 --- [http-nio-9009-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31T08:32:18.119+05:30  INFO 133968 --- [http-nio-9009-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-31T08:32:18.127+05:30  INFO 133968 --- [http-nio-9009-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-08-31T08:32:18.223+05:30  INFO 133968 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: Hyder
+2024-08-31T08:32:18.226+05:30  INFO 133968 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: Hyder
+2024-08-31T08:32:18.426+05:30 DEBUG 133968 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
     select
         r1_0.room_id,
         r1_0.availability_status,
@@ -99,27 +73,13 @@
         rooms r1_0 
     where
         r1_0.location=?
-2024-08-30T10:31:16.127+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Found 2 rooms for location: hyderabad
-2024-08-30T10:31:16.127+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
-2024-08-30T10:31:49.434+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get room details for room ID: 102
-2024-08-30T10:31:49.435+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding room by ID: 102
-2024-08-30T10:31:49.440+05:30 DEBUG 136392 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
-    select
-        r1_0.room_id,
-        r1_0.availability_status,
-        r1_0.description,
-        r1_0.location,
-        r1_0.price,
-        r1_0.room_type 
-    from
-        rooms r1_0 
-    where
-        r1_0.room_id=?
-2024-08-30T10:31:49.446+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.service.RoomService                  : Found room with ID: 102
-2024-08-30T10:31:49.447+05:30  INFO 136392 --- [http-nio-9009-exec-10] com.controller.RoomController            : Returning details for room ID: 102
-2024-08-30T10:31:51.111+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Request received to get rooms by location: hyderabad
-2024-08-30T10:31:51.112+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Finding rooms by location: hyderabad
-2024-08-30T10:31:51.117+05:30 DEBUG 136392 --- [http-nio-9009-exec-9] org.hibernate.SQL                        : 
+2024-08-31T08:32:18.478+05:30  WARN 133968 --- [http-nio-9009-exec-2] com.service.RoomService                  : No rooms found for location: Hyder
+2024-08-31T08:32:18.478+05:30  WARN 133968 --- [http-nio-9009-exec-2] com.controller.RoomController            : No rooms found in the specified location: Hyder
+2024-08-31T08:32:18.495+05:30  WARN 133968 --- [http-nio-9009-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: Hyder]
+2024-08-31T08:34:09.604+05:30  INFO 133968 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 8116 ms
+2024-08-31T08:34:21.372+05:30  INFO 133968 --- [http-nio-9009-exec-8] com.controller.RoomController            : Request received to get rooms by location: hderr
+2024-08-31T08:34:21.372+05:30  INFO 133968 --- [http-nio-9009-exec-8] com.service.RoomService                  : Finding rooms by location: hderr
+2024-08-31T08:34:21.376+05:30 DEBUG 133968 --- [http-nio-9009-exec-8] org.hibernate.SQL                        : 
     select
         r1_0.room_id,
         r1_0.availability_status,
@@ -131,127 +91,215 @@
         rooms r1_0 
     where
         r1_0.location=?
-2024-08-30T10:31:51.121+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.service.RoomService                  : Found 2 rooms for location: hyderabad
-2024-08-30T10:31:51.122+05:30  INFO 136392 --- [http-nio-9009-exec-9] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
-2024-08-30T10:35:13.173+05:30  INFO 136392 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:36:07.377+05:30  INFO 136392 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
-2024-08-30T10:36:07.425+05:30  INFO 136392 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
-2024-08-30T10:36:07.426+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994367426, current=DOWN, previous=UP]
-2024-08-30T10:36:07.427+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
-2024-08-30T10:36:07.485+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
-2024-08-30T10:36:07.540+05:30  INFO 136392 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-30T10:36:07.553+05:30  INFO 136392 --- [Thread-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-08-30T10:36:07.680+05:30  INFO 136392 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-30T10:36:07.742+05:30  INFO 136392 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-30T10:36:07.850+05:30  INFO 136392 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-30T10:36:07.856+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-08-30T10:36:10.893+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2024-08-30T10:36:10.921+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
-2024-08-30T10:36:10.940+05:30  INFO 136392 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-08-30T10:36:11.680+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 136392 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-30T10:36:11.680+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-30T10:36:13.626+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-30T10:36:14.060+05:30  INFO 136392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 433 ms. Found 1 JPA repository interfaces.
-2024-08-30T10:36:14.135+05:30  INFO 136392 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
-2024-08-30T10:36:14.226+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-30T10:36:14.227+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-30T10:36:14.227+05:30  INFO 136392 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-30T10:36:14.258+05:30  INFO 136392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-30T10:36:14.259+05:30  INFO 136392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2570 ms
-2024-08-30T10:36:14.341+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-08-30T10:36:14.371+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@985a672
-2024-08-30T10:36:14.371+05:30  INFO 136392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-08-30T10:36:14.373+05:30  INFO 136392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-30T10:36:14.393+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:36:14.394+05:30  INFO 136392 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-30T10:36:14.397+05:30  INFO 136392 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-30T10:36:14.398+05:30  WARN 136392 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-30T10:36:14.417+05:30  INFO 136392 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:36:14.460+05:30  INFO 136392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-30T10:36:14.461+05:30  INFO 136392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-30T10:36:14.574+05:30  WARN 136392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-30T10:36:14.767+05:30  WARN 136392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2024-08-30T10:36:14.867+05:30  INFO 136392 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-08-30T10:36:14.978+05:30  WARN 136392 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-30T10:36:14.989+05:30  INFO 136392 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-08-30T10:36:14.994+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-08-30T10:36:14.995+05:30  INFO 136392 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-08-30T10:36:15.006+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-08-30T10:36:15.090+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2024-08-30T10:36:15.092+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-08-30T10:36:15.092+05:30  INFO 136392 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-30T10:36:15.095+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724994375095 with initial instances count: 3
-2024-08-30T10:36:15.097+05:30  INFO 136392 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
-2024-08-30T10:36:15.097+05:30  INFO 136392 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994375097, current=UP, previous=STARTING]
-2024-08-30T10:36:15.099+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
-2024-08-30T10:36:15.106+05:30  INFO 136392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-30T10:36:15.107+05:30  INFO 136392 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
-2024-08-30T10:36:15.115+05:30  INFO 136392 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
-2024-08-30T10:36:15.206+05:30  INFO 136392 --- [restartedMain] com.RoomMain                             : Started RoomMain in 3.804 seconds (process running for 675.486)
-2024-08-30T10:36:15.208+05:30  INFO 136392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-08-30T10:37:26.890+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 115584 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-30T10:37:26.893+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-30T10:37:26.949+05:30  INFO 115584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-30T10:37:26.950+05:30  INFO 115584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-30T10:37:30.036+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-30T10:37:31.101+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1051 ms. Found 1 JPA repository interfaces.
-2024-08-30T10:37:31.608+05:30  INFO 115584 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
-2024-08-30T10:37:33.170+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-30T10:37:33.202+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-30T10:37:33.204+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-30T10:37:33.508+05:30  INFO 115584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-30T10:37:33.509+05:30  INFO 115584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6559 ms
-2024-08-30T10:37:34.444+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-30T10:37:35.586+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61255eb3
-2024-08-30T10:37:35.592+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-30T10:37:35.749+05:30  INFO 115584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-30T10:37:36.013+05:30  INFO 115584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
-2024-08-30T10:37:36.020+05:30  INFO 115584 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2024-08-30T10:37:36.488+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:37:36.828+05:30  INFO 115584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-30T10:37:36.953+05:30  INFO 115584 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-30T10:37:36.958+05:30  WARN 115584 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-30T10:37:37.606+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:37:39.215+05:30  INFO 115584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-30T10:37:39.224+05:30  INFO 115584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-30T10:37:40.456+05:30  WARN 115584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-30T10:37:41.725+05:30  WARN 115584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2024-08-30T10:37:41.997+05:30  INFO 115584 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-08-30T10:37:42.329+05:30  WARN 115584 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-30T10:37:42.380+05:30  INFO 115584 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-08-30T10:37:42.599+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-08-30T10:37:42.610+05:30  INFO 115584 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-08-30T10:37:42.658+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-08-30T10:37:42.660+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-08-30T10:37:42.660+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-08-30T10:37:43.439+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2024-08-30T10:37:43.447+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-08-30T10:37:43.455+05:30  INFO 115584 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-30T10:37:43.468+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724994463465 with initial instances count: 2
-2024-08-30T10:37:43.475+05:30  INFO 115584 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
-2024-08-30T10:37:43.477+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994463477, current=UP, previous=STARTING]
-2024-08-30T10:37:43.480+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
-2024-08-30T10:37:43.540+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-30T10:37:43.542+05:30  INFO 115584 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
-2024-08-30T10:37:43.610+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
-2024-08-30T10:37:43.796+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Started RoomMain in 17.62 seconds (process running for 18.245)
-2024-08-30T10:37:45.342+05:30  INFO 115584 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-30T10:37:45.344+05:30  INFO 115584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-30T10:37:45.348+05:30  INFO 115584 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2024-08-30T10:37:53.285+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 7649 ms
-2024-08-30T10:38:13.804+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get room details for room ID: 102
-2024-08-30T10:38:13.806+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding room by ID: 102
-2024-08-30T10:38:13.928+05:30 DEBUG 115584 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+2024-08-31T08:34:21.381+05:30  WARN 133968 --- [http-nio-9009-exec-8] com.service.RoomService                  : No rooms found for location: hderr
+2024-08-31T08:34:21.381+05:30  WARN 133968 --- [http-nio-9009-exec-8] com.controller.RoomController            : No rooms found in the specified location: hderr
+2024-08-31T08:34:21.387+05:30  WARN 133968 --- [http-nio-9009-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: hderr]
+2024-08-31T08:36:29.011+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T08:39:16.105+05:30  INFO 133968 --- [http-nio-9009-exec-7] com.controller.RoomController            : Request received to get rooms by location: Hyderabad
+2024-08-31T08:39:16.105+05:30  INFO 133968 --- [http-nio-9009-exec-7] com.service.RoomService                  : Finding rooms by location: Hyderabad
+2024-08-31T08:39:16.138+05:30 DEBUG 133968 --- [http-nio-9009-exec-7] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T08:39:16.353+05:30  INFO 133968 --- [http-nio-9009-exec-7] com.service.RoomService                  : Found 2 rooms for location: Hyderabad
+2024-08-31T08:39:16.354+05:30  INFO 133968 --- [http-nio-9009-exec-7] com.controller.RoomController            : Returning 2 rooms for location: Hyderabad
+2024-08-31T08:41:29.033+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T08:41:34.647+05:30  INFO 133968 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: Hyderab
+2024-08-31T08:41:34.647+05:30  INFO 133968 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: Hyderab
+2024-08-31T08:41:34.663+05:30 DEBUG 133968 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T08:41:34.724+05:30  WARN 133968 --- [http-nio-9009-exec-2] com.service.RoomService                  : No rooms found for location: Hyderab
+2024-08-31T08:41:34.729+05:30  WARN 133968 --- [http-nio-9009-exec-2] com.controller.RoomController            : No rooms found in the specified location: Hyderab
+2024-08-31T08:41:34.763+05:30  WARN 133968 --- [http-nio-9009-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: Hyderab]
+2024-08-31T08:46:29.059+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T08:50:45.682+05:30  INFO 133968 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get rooms by location: Hyderabad
+2024-08-31T08:50:45.701+05:30  INFO 133968 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding rooms by location: Hyderabad
+2024-08-31T08:50:45.784+05:30 DEBUG 133968 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T08:50:45.900+05:30  INFO 133968 --- [http-nio-9009-exec-1] com.service.RoomService                  : Found 2 rooms for location: Hyderabad
+2024-08-31T08:50:45.900+05:30  INFO 133968 --- [http-nio-9009-exec-1] com.controller.RoomController            : Returning 2 rooms for location: Hyderabad
+2024-08-31T08:50:54.565+05:30  INFO 133968 --- [http-nio-9009-exec-6] com.controller.RoomController            : Request received to get rooms by location: Hyderab
+2024-08-31T08:50:54.565+05:30  INFO 133968 --- [http-nio-9009-exec-6] com.service.RoomService                  : Finding rooms by location: Hyderab
+2024-08-31T08:50:54.570+05:30 DEBUG 133968 --- [http-nio-9009-exec-6] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T08:50:54.570+05:30  WARN 133968 --- [http-nio-9009-exec-6] com.service.RoomService                  : No rooms found for location: Hyderab
+2024-08-31T08:50:54.570+05:30  WARN 133968 --- [http-nio-9009-exec-6] com.controller.RoomController            : No rooms found in the specified location: Hyderab
+2024-08-31T08:50:54.583+05:30  WARN 133968 --- [http-nio-9009-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: Hyderab]
+2024-08-31T08:51:29.116+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T08:56:29.148+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T08:58:25.064+05:30  WARN 133968 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m58s939ms436µs100ns).
+2024-08-31T09:02:58.122+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T09:07:58.160+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T09:12:58.186+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:20:58.226+05:30  WARN 133968 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m32s850ms843µs600ns).
+2024-08-31T10:23:01.032+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:28:01.086+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:33:01.109+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:38:01.150+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:43:01.211+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:48:01.231+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:53:01.260+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T10:58:01.284+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:03:01.318+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:08:01.337+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:13:01.351+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:18:01.360+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:23:01.402+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:28:01.418+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:33:01.433+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:38:01.448+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:43:01.454+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:48:01.474+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:53:01.507+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T11:58:01.516+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T12:03:01.519+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T12:08:01.522+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T12:13:01.537+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T12:18:01.546+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:28:48.846+05:30  WARN 133968 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m50s649ms653µs900ns).
+2024-08-31T13:29:18.850+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:34:18.910+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:39:18.930+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:44:18.940+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:49:18.966+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:54:18.969+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T13:59:18.976+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T15:12:53.248+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T15:12:53.763+05:30  WARN 133968 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m4s242ms245µs300ns).
+2024-08-31T15:20:54.408+05:30  WARN 133968 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m667ms961µs300ns).
+2024-08-31T15:25:24.039+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T15:51:50.156+05:30  WARN 133968 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m55s664ms567µs800ns).
+2024-08-31T15:55:49.737+05:30  INFO 133968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:23:53.917+05:30  INFO 13464 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 13464 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-31T17:23:53.933+05:30  INFO 13464 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-31T17:23:54.000+05:30  INFO 13464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-31T17:23:54.000+05:30  INFO 13464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-31T17:23:56.147+05:30  INFO 13464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-31T17:23:56.766+05:30  INFO 13464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 606 ms. Found 1 JPA repository interfaces.
+2024-08-31T17:23:57.225+05:30  INFO 13464 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-31T17:23:58.539+05:30  INFO 13464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-31T17:23:58.557+05:30  INFO 13464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-31T17:23:58.558+05:30  INFO 13464 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-31T17:23:58.692+05:30  INFO 13464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-31T17:23:58.693+05:30  INFO 13464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4692 ms
+2024-08-31T17:23:58.962+05:30  INFO 13464 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-31T17:23:59.759+05:30  INFO 13464 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a06f25d
+2024-08-31T17:23:59.762+05:30  INFO 13464 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-31T17:23:59.830+05:30  INFO 13464 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31T17:24:00.038+05:30  INFO 13464 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-31T17:24:00.068+05:30  INFO 13464 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-08-31T17:24:00.856+05:30  INFO 13464 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T17:24:01.907+05:30  INFO 13464 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-31T17:24:02.090+05:30  INFO 13464 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-31T17:24:02.094+05:30  WARN 13464 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-31T17:24:02.657+05:30  INFO 13464 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T17:24:04.234+05:30  INFO 13464 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31T17:24:04.244+05:30  INFO 13464 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T17:24:05.403+05:30  WARN 13464 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-31T17:24:06.781+05:30  WARN 13464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-31T17:24:07.108+05:30  INFO 13464 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-31T17:24:07.470+05:30  WARN 13464 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-31T17:24:07.529+05:30  INFO 13464 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-31T17:24:07.761+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-31T17:24:07.776+05:30  INFO 13464 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:24:07.839+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T17:24:07.840+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T17:24:07.840+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T17:24:07.840+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T17:24:07.840+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T17:24:07.840+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-31T17:24:07.840+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T17:24:08.689+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T17:24:08.697+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-31T17:24:08.705+05:30  INFO 13464 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-31T17:24:08.719+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1725105248716 with initial instances count: 2
+2024-08-31T17:24:08.728+05:30  INFO 13464 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-31T17:24:08.730+05:30  INFO 13464 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725105248730, current=UP, previous=STARTING]
+2024-08-31T17:24:08.733+05:30  INFO 13464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T17:24:08.787+05:30  INFO 13464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-31T17:24:08.790+05:30  INFO 13464 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-31T17:24:08.830+05:30  INFO 13464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T17:24:09.045+05:30  INFO 13464 --- [restartedMain] com.RoomMain                             : Started RoomMain in 15.747 seconds (process running for 16.335)
+2024-08-31T17:24:15.230+05:30  INFO 13464 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31T17:24:15.231+05:30  INFO 13464 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-31T17:24:15.234+05:30  INFO 13464 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-31T17:24:23.278+05:30  INFO 13464 --- [http-nio-9009-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 7779 ms
+2024-08-31T17:29:07.846+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:34:07.858+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:36:16.173+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: hyderabad
+2024-08-31T17:36:16.173+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: hyderabad
+2024-08-31T17:36:16.374+05:30 DEBUG 13464 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T17:36:16.490+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Found 2 rooms for location: hyderabad
+2024-08-31T17:36:16.490+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
+2024-08-31T17:37:38.770+05:30  INFO 13464 --- [http-nio-9009-exec-5] com.controller.RoomController            : Request received to get rooms by location: Karimnagar
+2024-08-31T17:37:38.770+05:30  INFO 13464 --- [http-nio-9009-exec-5] com.service.RoomService                  : Finding rooms by location: Karimnagar
+2024-08-31T17:37:38.770+05:30 DEBUG 13464 --- [http-nio-9009-exec-5] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T17:37:38.770+05:30  WARN 13464 --- [http-nio-9009-exec-5] com.service.RoomService                  : No rooms found for location: Karimnagar
+2024-08-31T17:37:38.770+05:30  WARN 13464 --- [http-nio-9009-exec-5] com.controller.RoomController            : No rooms found in the specified location: Karimnagar
+2024-08-31T17:37:38.790+05:30  WARN 13464 --- [http-nio-9009-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: Karimnagar]
+2024-08-31T17:38:31.067+05:30  INFO 13464 --- [http-nio-9009-exec-4] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-31T17:38:31.067+05:30  INFO 13464 --- [http-nio-9009-exec-4] com.service.RoomService                  : Finding room by ID: 102
+2024-08-31T17:38:31.128+05:30 DEBUG 13464 --- [http-nio-9009-exec-4] org.hibernate.SQL                        : 
     select
         r1_0.room_id,
         r1_0.availability_status,
@@ -263,104 +311,950 @@
         rooms r1_0 
     where
         r1_0.room_id=?
-2024-08-30T10:38:14.000+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.service.RoomService                  : Found room with ID: 102
-2024-08-30T10:38:14.001+05:30  INFO 115584 --- [http-nio-9009-exec-1] com.controller.RoomController            : Returning details for room ID: 102
-2024-08-30T10:42:42.713+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:43:08.593+05:30  INFO 115584 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2024-08-30T10:43:08.631+05:30  INFO 115584 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
-2024-08-30T10:43:08.632+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994788632, current=DOWN, previous=UP]
-2024-08-30T10:43:08.635+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
-2024-08-30T10:43:08.665+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
-2024-08-30T10:43:08.730+05:30  INFO 115584 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-30T10:43:08.747+05:30  INFO 115584 --- [Thread-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-08-30T10:43:08.886+05:30  INFO 115584 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-30T10:43:08.946+05:30  INFO 115584 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-30T10:43:09.028+05:30  INFO 115584 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-30T10:43:09.032+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-08-30T10:43:12.053+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2024-08-30T10:43:12.070+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
-2024-08-30T10:43:12.086+05:30  INFO 115584 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-08-30T10:43:12.570+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 115584 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
-2024-08-30T10:43:12.572+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
-2024-08-30T10:43:15.281+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-30T10:43:15.629+05:30  INFO 115584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 347 ms. Found 1 JPA repository interfaces.
-2024-08-30T10:43:15.696+05:30  INFO 115584 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
-2024-08-30T10:43:15.777+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
-2024-08-30T10:43:15.778+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-30T10:43:15.778+05:30  INFO 115584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2024-08-30T10:43:15.812+05:30  INFO 115584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-30T10:43:15.812+05:30  INFO 115584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3233 ms
-2024-08-30T10:43:15.899+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-08-30T10:43:15.922+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c1d906b
-2024-08-30T10:43:15.922+05:30  INFO 115584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-08-30T10:43:15.925+05:30  INFO 115584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-30T10:43:15.948+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:43:15.949+05:30  INFO 115584 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-30T10:43:15.951+05:30  INFO 115584 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
-2024-08-30T10:43:15.951+05:30  WARN 115584 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-08-30T10:43:15.967+05:30  INFO 115584 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2024-08-30T10:43:16.005+05:30  INFO 115584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-30T10:43:16.006+05:30  INFO 115584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-30T10:43:16.122+05:30  WARN 115584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-30T10:43:16.377+05:30  WARN 115584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2024-08-30T10:43:16.527+05:30  INFO 115584 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-08-30T10:43:16.624+05:30  WARN 115584 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-30T10:43:16.635+05:30  INFO 115584 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-08-30T10:43:16.639+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-08-30T10:43:16.639+05:30  INFO 115584 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:43:16.648+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-08-30T10:43:16.649+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-08-30T10:43:16.676+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2024-08-30T10:43:16.678+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-08-30T10:43:16.679+05:30  INFO 115584 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-30T10:43:16.680+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724994796680 with initial instances count: 3
-2024-08-30T10:43:16.682+05:30  INFO 115584 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
-2024-08-30T10:43:16.682+05:30  INFO 115584 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724994796682, current=UP, previous=STARTING]
-2024-08-30T10:43:16.682+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
-2024-08-30T10:43:16.688+05:30  INFO 115584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
-2024-08-30T10:43:16.688+05:30  INFO 115584 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
-2024-08-30T10:43:16.702+05:30  INFO 115584 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
-2024-08-30T10:43:16.774+05:30  INFO 115584 --- [restartedMain] com.RoomMain                             : Started RoomMain in 4.374 seconds (process running for 351.201)
-2024-08-30T10:43:16.777+05:30  INFO 115584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-08-30T10:43:44.859+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-30T10:43:44.860+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-30T10:43:44.864+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-08-30T10:43:51.166+05:30  INFO 115584 --- [http-nio-9009-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 6285 ms
-2024-08-30T10:48:16.710+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:53:16.770+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T10:58:16.796+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:03:16.827+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:08:16.865+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:13:16.887+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:18:16.911+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:23:16.935+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:28:16.972+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:33:17.020+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:38:17.042+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:43:17.071+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:48:17.112+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:53:17.130+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T11:58:17.142+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:03:17.164+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:08:17.203+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:13:17.231+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:18:17.268+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:23:17.284+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:28:17.304+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:33:17.321+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:38:17.338+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:43:17.361+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:48:17.380+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:53:17.403+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T12:58:17.407+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T13:03:17.428+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T13:08:17.455+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T13:13:17.476+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T13:18:17.493+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T13:23:17.514+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-08-30T13:28:17.536+05:30  INFO 115584 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:38:31.128+05:30  INFO 13464 --- [http-nio-9009-exec-4] com.service.RoomService                  : Found room with ID: 102
+2024-08-31T17:38:31.128+05:30  INFO 13464 --- [http-nio-9009-exec-4] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-31T17:39:07.866+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:39:54.311+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.controller.RoomController            : Request received to get room details for room ID: 1111
+2024-08-31T17:39:54.311+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.service.RoomService                  : Finding room by ID: 1111
+2024-08-31T17:39:54.321+05:30 DEBUG 13464 --- [http-nio-9009-exec-8] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T17:39:54.324+05:30  WARN 13464 --- [http-nio-9009-exec-8] com.service.RoomService                  : Room not found with ID: 1111
+2024-08-31T17:39:54.324+05:30  WARN 13464 --- [http-nio-9009-exec-8] com.controller.RoomController            : Room not found with ID: 1111
+2024-08-31T17:39:54.324+05:30  WARN 13464 --- [http-nio-9009-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 1111]
+2024-08-31T17:42:22.204+05:30  INFO 13464 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get rooms by location: hyderabad
+2024-08-31T17:42:22.204+05:30  INFO 13464 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding rooms by location: hyderabad
+2024-08-31T17:42:22.220+05:30 DEBUG 13464 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T17:42:22.220+05:30  INFO 13464 --- [http-nio-9009-exec-10] com.service.RoomService                  : Found 2 rooms for location: hyderabad
+2024-08-31T17:42:22.220+05:30  INFO 13464 --- [http-nio-9009-exec-10] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
+2024-08-31T17:43:07.465+05:30  INFO 13464 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get rooms by location: Karimnagar
+2024-08-31T17:43:07.465+05:30  INFO 13464 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding rooms by location: Karimnagar
+2024-08-31T17:43:07.465+05:30 DEBUG 13464 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T17:43:07.481+05:30  WARN 13464 --- [http-nio-9009-exec-1] com.service.RoomService                  : No rooms found for location: Karimnagar
+2024-08-31T17:43:07.481+05:30  WARN 13464 --- [http-nio-9009-exec-1] com.controller.RoomController            : No rooms found in the specified location: Karimnagar
+2024-08-31T17:43:07.483+05:30  WARN 13464 --- [http-nio-9009-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: Karimnagar]
+2024-08-31T17:43:45.732+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.controller.RoomController            : Request received to get room details for room ID: 11
+2024-08-31T17:43:45.732+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.service.RoomService                  : Finding room by ID: 11
+2024-08-31T17:43:45.744+05:30 DEBUG 13464 --- [http-nio-9009-exec-3] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T17:43:45.748+05:30  WARN 13464 --- [http-nio-9009-exec-3] com.service.RoomService                  : Room not found with ID: 11
+2024-08-31T17:43:45.748+05:30  WARN 13464 --- [http-nio-9009-exec-3] com.controller.RoomController            : Room not found with ID: 11
+2024-08-31T17:43:45.751+05:30  WARN 13464 --- [http-nio-9009-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 11]
+2024-08-31T17:43:51.164+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-31T17:43:51.164+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding room by ID: 102
+2024-08-31T17:43:51.164+05:30 DEBUG 13464 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T17:43:51.164+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Found room with ID: 102
+2024-08-31T17:43:51.176+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-31T17:44:07.879+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:44:55.806+05:30  INFO 13464 --- [http-nio-9009-exec-5] com.controller.RoomController            : Request received to get room details for room ID: 11111
+2024-08-31T17:44:55.806+05:30  INFO 13464 --- [http-nio-9009-exec-5] com.service.RoomService                  : Finding room by ID: 11111
+2024-08-31T17:44:55.808+05:30 DEBUG 13464 --- [http-nio-9009-exec-5] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T17:44:55.811+05:30  WARN 13464 --- [http-nio-9009-exec-5] com.service.RoomService                  : Room not found with ID: 11111
+2024-08-31T17:44:55.812+05:30  WARN 13464 --- [http-nio-9009-exec-5] com.controller.RoomController            : Room not found with ID: 11111
+2024-08-31T17:44:55.813+05:30  WARN 13464 --- [http-nio-9009-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 11111]
+2024-08-31T17:49:07.889+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:54:07.905+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T17:59:07.920+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:04:07.930+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:09:07.940+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:14:07.967+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:19:07.975+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:23:24.284+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.controller.RoomController            : Request received to get rooms by location: Hyderabad
+2024-08-31T18:23:24.284+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.service.RoomService                  : Finding rooms by location: Hyderabad
+2024-08-31T18:23:24.302+05:30 DEBUG 13464 --- [http-nio-9009-exec-8] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T18:23:24.302+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.service.RoomService                  : Found 2 rooms for location: Hyderabad
+2024-08-31T18:23:24.302+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.controller.RoomController            : Returning 2 rooms for location: Hyderabad
+2024-08-31T18:24:08.000+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:25:22.991+05:30  INFO 13464 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get rooms by location: Kachiguda
+2024-08-31T18:25:22.991+05:30  INFO 13464 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding rooms by location: Kachiguda
+2024-08-31T18:25:23.002+05:30 DEBUG 13464 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T18:25:23.009+05:30  WARN 13464 --- [http-nio-9009-exec-10] com.service.RoomService                  : No rooms found for location: Kachiguda
+2024-08-31T18:25:23.009+05:30  WARN 13464 --- [http-nio-9009-exec-10] com.controller.RoomController            : No rooms found in the specified location: Kachiguda
+2024-08-31T18:25:23.009+05:30  WARN 13464 --- [http-nio-9009-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: Kachiguda]
+2024-08-31T18:26:00.123+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.controller.RoomController            : Request received to get rooms by location: -1
+2024-08-31T18:26:00.140+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.service.RoomService                  : Finding rooms by location: -1
+2024-08-31T18:26:00.141+05:30 DEBUG 13464 --- [http-nio-9009-exec-3] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T18:26:00.141+05:30  WARN 13464 --- [http-nio-9009-exec-3] com.service.RoomService                  : No rooms found for location: -1
+2024-08-31T18:26:00.141+05:30  WARN 13464 --- [http-nio-9009-exec-3] com.controller.RoomController            : No rooms found in the specified location: -1
+2024-08-31T18:26:00.141+05:30  WARN 13464 --- [http-nio-9009-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: -1]
+2024-08-31T18:26:10.438+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-31T18:26:10.438+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding room by ID: 102
+2024-08-31T18:26:10.441+05:30 DEBUG 13464 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T18:26:10.441+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Found room with ID: 102
+2024-08-31T18:26:10.441+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-31T18:26:38.137+05:30  WARN 13464 --- [http-nio-9009-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [jakarta.validation.ConstraintViolationException: getRoomDetailsById.roomId: Room Id must be positive, getRoomDetailsById.roomId: must be greater than 0]
+2024-08-31T18:26:57.426+05:30  WARN 13464 --- [http-nio-9009-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "ttttttt"]
+2024-08-31T18:27:15.985+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.controller.RoomController            : Request received to get room details for room ID: 111111
+2024-08-31T18:27:15.985+05:30  INFO 13464 --- [http-nio-9009-exec-8] com.service.RoomService                  : Finding room by ID: 111111
+2024-08-31T18:27:15.985+05:30 DEBUG 13464 --- [http-nio-9009-exec-8] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T18:27:15.985+05:30  WARN 13464 --- [http-nio-9009-exec-8] com.service.RoomService                  : Room not found with ID: 111111
+2024-08-31T18:27:15.985+05:30  WARN 13464 --- [http-nio-9009-exec-8] com.controller.RoomController            : Room not found with ID: 111111
+2024-08-31T18:27:15.985+05:30  WARN 13464 --- [http-nio-9009-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 111111]
+2024-08-31T18:29:08.011+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:34:08.021+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:39:08.034+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:44:08.043+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:49:08.047+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:54:08.057+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T18:59:08.077+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:04:08.092+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:09:08.098+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:14:08.102+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:19:08.110+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:24:08.112+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:26:13.253+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.controller.RoomController            : Request received to get rooms by location: hYDERABAD
+2024-08-31T19:26:13.253+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.service.RoomService                  : Finding rooms by location: hYDERABAD
+2024-08-31T19:26:13.269+05:30 DEBUG 13464 --- [http-nio-9009-exec-3] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T19:26:13.285+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.service.RoomService                  : Found 2 rooms for location: hYDERABAD
+2024-08-31T19:26:13.285+05:30  INFO 13464 --- [http-nio-9009-exec-3] com.controller.RoomController            : Returning 2 rooms for location: hYDERABAD
+2024-08-31T19:26:31.602+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: Hyderabad
+2024-08-31T19:26:31.602+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: Hyderabad
+2024-08-31T19:26:31.602+05:30 DEBUG 13464 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T19:26:31.617+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.service.RoomService                  : Found 2 rooms for location: Hyderabad
+2024-08-31T19:26:31.617+05:30  INFO 13464 --- [http-nio-9009-exec-2] com.controller.RoomController            : Returning 2 rooms for location: Hyderabad
+2024-08-31T19:28:31.794+05:30  INFO 13464 --- [http-nio-9009-exec-7] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-31T19:28:31.794+05:30  INFO 13464 --- [http-nio-9009-exec-7] com.service.RoomService                  : Finding room by ID: 102
+2024-08-31T19:28:31.804+05:30 DEBUG 13464 --- [http-nio-9009-exec-7] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T19:28:31.809+05:30  INFO 13464 --- [http-nio-9009-exec-7] com.service.RoomService                  : Found room with ID: 102
+2024-08-31T19:28:31.810+05:30  INFO 13464 --- [http-nio-9009-exec-7] com.controller.RoomController            : Returning details for room ID: 102
+2024-08-31T19:29:08.116+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:33:15.825+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 22 more
+
+2024-08-31T19:33:15.826+05:30  WARN 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:33:15.825+05:30  INFO 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 19 more
+
+2024-08-31T19:33:15.829+05:30  WARN 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:33:15.853+05:30  INFO 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 20 more
+
+2024-08-31T19:33:15.854+05:30  WARN 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:33:15.862+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 23 more
+
+2024-08-31T19:33:15.863+05:30  WARN 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:33:15.864+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2024-08-31T19:33:15.854+05:30 ERROR 13464 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) ~[eureka-client-2.0.0.jar:2.0.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-08-31T19:33:45.921+05:30  INFO 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 20 more
+
+2024-08-31T19:33:45.922+05:30  WARN 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:33:45.922+05:30 ERROR 13464 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) ~[eureka-client-2.0.0.jar:2.0.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-08-31T19:33:45.943+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 23 more
+
+2024-08-31T19:33:45.943+05:30  WARN 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:33:45.944+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2024-08-31T19:34:08.134+05:30  INFO 13464 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:34:15.971+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 23 more
+
+2024-08-31T19:34:15.973+05:30  WARN 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:34:15.973+05:30  INFO 13464 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2024-08-31T19:34:15.987+05:30  INFO 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 20 more
+
+2024-08-31T19:34:15.987+05:30  WARN 13464 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-08-31T19:34:15.987+05:30 ERROR 13464 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) ~[eureka-client-2.0.0.jar:2.0.0]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) ~[eureka-client-2.0.0.jar:2.0.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-08-31T19:35:48.542+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 6404 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-31T19:35:48.546+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-31T19:35:48.613+05:30  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-31T19:35:48.613+05:30  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-31T19:35:51.031+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-31T19:35:51.718+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 666 ms. Found 1 JPA repository interfaces.
+2024-08-31T19:35:52.072+05:30  INFO 6404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-31T19:35:52.904+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-31T19:35:52.920+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-31T19:35:52.920+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-31T19:35:53.021+05:30  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-31T19:35:53.021+05:30  INFO 6404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4407 ms
+2024-08-31T19:35:53.238+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-31T19:35:53.589+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d898d8d
+2024-08-31T19:35:53.589+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-31T19:35:53.638+05:30  INFO 6404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31T19:35:53.709+05:30  INFO 6404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-31T19:35:53.709+05:30  INFO 6404 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-08-31T19:35:53.917+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T19:35:54.087+05:30  INFO 6404 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-31T19:35:54.167+05:30  INFO 6404 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-31T19:35:54.167+05:30  WARN 6404 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-31T19:35:54.437+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T19:35:55.419+05:30  INFO 6404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31T19:35:55.419+05:30  INFO 6404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T19:35:56.680+05:30  WARN 6404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-31T19:35:58.152+05:30  WARN 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-31T19:35:58.521+05:30  INFO 6404 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-31T19:35:58.933+05:30  WARN 6404 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-31T19:35:58.989+05:30  INFO 6404 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-31T19:35:59.232+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-31T19:35:59.248+05:30  INFO 6404 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:35:59.311+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T19:35:59.315+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T19:35:59.315+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T19:35:59.315+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T19:35:59.315+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T19:35:59.315+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-31T19:35:59.315+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T19:36:00.352+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T19:36:00.380+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-31T19:36:00.387+05:30  INFO 6404 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-31T19:36:00.403+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1725113160395 with initial instances count: 2
+2024-08-31T19:36:00.412+05:30  INFO 6404 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-31T19:36:00.412+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725113160412, current=UP, previous=STARTING]
+2024-08-31T19:36:00.427+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T19:36:00.531+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-31T19:36:00.531+05:30  INFO 6404 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-31T19:36:00.572+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T19:36:01.390+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Started RoomMain in 13.375 seconds (process running for 13.918)
+2024-08-31T19:36:29.370+05:30  INFO 6404 --- [http-nio-9009-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31T19:36:29.370+05:30  INFO 6404 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-31T19:36:29.377+05:30  INFO 6404 --- [http-nio-9009-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-08-31T19:36:29.534+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get room details for room ID: 111
+2024-08-31T19:36:29.537+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding room by ID: 111
+2024-08-31T19:36:29.696+05:30 DEBUG 6404 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T19:36:29.767+05:30  WARN 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : Room not found with ID: 111
+2024-08-31T19:36:29.775+05:30  WARN 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : Room not found with ID: 111
+2024-08-31T19:36:29.806+05:30  WARN 6404 --- [http-nio-9009-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 111]
