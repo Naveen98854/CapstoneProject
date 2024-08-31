@@ -1258,3 +1258,384 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2024-08-31T19:36:29.767+05:30  WARN 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : Room not found with ID: 111
 2024-08-31T19:36:29.775+05:30  WARN 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : Room not found with ID: 111
 2024-08-31T19:36:29.806+05:30  WARN 6404 --- [http-nio-9009-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 111]
+2024-08-31T19:36:57.016+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: 111
+2024-08-31T19:36:57.017+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: 111
+2024-08-31T19:36:57.219+05:30 DEBUG 6404 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T19:36:57.232+05:30  WARN 6404 --- [http-nio-9009-exec-2] com.service.RoomService                  : No rooms found for location: 111
+2024-08-31T19:36:57.232+05:30  WARN 6404 --- [http-nio-9009-exec-2] com.controller.RoomController            : No rooms found in the specified location: 111
+2024-08-31T19:36:57.235+05:30  WARN 6404 --- [http-nio-9009-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: 111]
+2024-08-31T19:40:59.324+05:30  INFO 6404 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:45:59.334+05:30  INFO 6404 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:49:10.361+05:30  INFO 6404 --- [http-nio-9009-exec-5] com.controller.RoomController            : Request received to get room details for room ID: 555
+2024-08-31T19:49:10.361+05:30  INFO 6404 --- [http-nio-9009-exec-5] com.service.RoomService                  : Finding room by ID: 555
+2024-08-31T19:49:10.368+05:30 DEBUG 6404 --- [http-nio-9009-exec-5] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T19:49:10.374+05:30  WARN 6404 --- [http-nio-9009-exec-5] com.service.RoomService                  : Room not found with ID: 555
+2024-08-31T19:49:10.374+05:30  WARN 6404 --- [http-nio-9009-exec-5] com.controller.RoomController            : Room not found with ID: 555
+2024-08-31T19:49:10.374+05:30  WARN 6404 --- [http-nio-9009-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: Room not found with ID: 555]
+2024-08-31T19:49:49.750+05:30  INFO 6404 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-08-31T19:49:49.766+05:30  INFO 6404 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
+2024-08-31T19:49:49.766+05:30  INFO 6404 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725113989766, current=DOWN, previous=UP]
+2024-08-31T19:49:49.766+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T19:49:49.782+05:30  INFO 6404 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-31T19:49:49.782+05:30  INFO 6404 --- [Thread-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-31T19:49:49.798+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T19:49:49.813+05:30  INFO 6404 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T19:49:49.813+05:30  INFO 6404 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-31T19:49:49.829+05:30  INFO 6404 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-31T19:49:49.829+05:30  INFO 6404 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-31T19:49:52.846+05:30  INFO 6404 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-31T19:49:52.877+05:30  INFO 6404 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
+2024-08-31T19:49:52.884+05:30  INFO 6404 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-31T19:49:53.153+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 6404 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-31T19:49:53.154+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-31T19:49:54.927+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-31T19:49:55.629+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 700 ms. Found 1 JPA repository interfaces.
+2024-08-31T19:49:55.786+05:30  INFO 6404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-31T19:49:55.998+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-31T19:49:56.000+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-31T19:49:56.002+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-31T19:49:56.077+05:30  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-31T19:49:56.078+05:30  INFO 6404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2919 ms
+2024-08-31T19:49:56.313+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-31T19:49:56.350+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14bf626e
+2024-08-31T19:49:56.350+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-31T19:49:56.353+05:30  INFO 6404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31T19:49:56.386+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T19:49:56.386+05:30  INFO 6404 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-31T19:49:56.389+05:30  INFO 6404 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-31T19:49:56.390+05:30  WARN 6404 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-31T19:49:56.412+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T19:49:56.548+05:30  INFO 6404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31T19:49:56.549+05:30  INFO 6404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T19:49:56.859+05:30  WARN 6404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-31T19:49:57.272+05:30  WARN 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-31T19:49:57.452+05:30  INFO 6404 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-31T19:49:57.699+05:30  WARN 6404 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-31T19:49:57.716+05:30  INFO 6404 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-31T19:49:57.722+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-31T19:49:57.723+05:30  INFO 6404 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T19:49:57.733+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T19:49:57.733+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T19:49:57.733+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T19:49:57.733+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T19:49:57.733+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T19:49:57.734+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-31T19:49:57.734+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T19:49:57.769+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T19:49:57.771+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-31T19:49:57.773+05:30  INFO 6404 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-31T19:49:57.776+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1725113997776 with initial instances count: 3
+2024-08-31T19:49:57.778+05:30  INFO 6404 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-31T19:49:57.778+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725113997778, current=UP, previous=STARTING]
+2024-08-31T19:49:57.782+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-31T19:49:57.783+05:30  INFO 6404 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-31T19:49:57.788+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T19:49:57.810+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T19:49:57.899+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Started RoomMain in 4.926 seconds (process running for 850.422)
+2024-08-31T19:49:57.905+05:30  INFO 6404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-31T19:54:57.736+05:30  INFO 6404 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T20:04:15.553+05:30  WARN 6404 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m48s916ms938µs).
+2024-08-31T20:05:16.662+05:30  INFO 6404 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T20:10:16.677+05:30  INFO 6404 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T20:12:43.653+05:30  INFO 6404 --- [http-nio-9009-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31T20:12:43.653+05:30  INFO 6404 --- [http-nio-9009-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-31T20:12:43.743+05:30  INFO 6404 --- [http-nio-9009-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 90 ms
+2024-08-31T20:12:43.894+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: hydd
+2024-08-31T20:12:43.894+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: hydd
+2024-08-31T20:12:43.962+05:30 DEBUG 6404 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:12:44.026+05:30  WARN 6404 --- [http-nio-9009-exec-2] com.service.RoomService                  : No rooms found for location: hydd
+2024-08-31T20:12:44.026+05:30  WARN 6404 --- [http-nio-9009-exec-2] com.controller.RoomController            : No rooms found in the specified location: hydd
+2024-08-31T20:12:44.062+05:30  WARN 6404 --- [http-nio-9009-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: hydd]
+2024-08-31T20:12:55.612+05:30  INFO 6404 --- [http-nio-9009-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 6815 ms
+2024-08-31T20:12:57.443+05:30  INFO 6404 --- [http-nio-9009-exec-8] com.controller.RoomController            : Request received to get rooms by location: gtgt
+2024-08-31T20:12:57.443+05:30  INFO 6404 --- [http-nio-9009-exec-8] com.service.RoomService                  : Finding rooms by location: gtgt
+2024-08-31T20:12:57.443+05:30 DEBUG 6404 --- [http-nio-9009-exec-8] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:12:57.457+05:30  WARN 6404 --- [http-nio-9009-exec-8] com.service.RoomService                  : No rooms found for location: gtgt
+2024-08-31T20:12:57.458+05:30  WARN 6404 --- [http-nio-9009-exec-8] com.controller.RoomController            : No rooms found in the specified location: gtgt
+2024-08-31T20:12:57.461+05:30  WARN 6404 --- [http-nio-9009-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: gtgt]
+2024-08-31T20:13:15.775+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get rooms by location: 1
+2024-08-31T20:13:15.775+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding rooms by location: 1
+2024-08-31T20:13:15.775+05:30 DEBUG 6404 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:13:15.780+05:30  WARN 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : No rooms found for location: 1
+2024-08-31T20:13:15.780+05:30  WARN 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : No rooms found in the specified location: 1
+2024-08-31T20:13:15.781+05:30  WARN 6404 --- [http-nio-9009-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: 1]
+2024-08-31T20:14:25.198+05:30  INFO 6404 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-31T20:14:25.206+05:30  INFO 6404 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
+2024-08-31T20:14:25.207+05:30  INFO 6404 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725115465207, current=DOWN, previous=UP]
+2024-08-31T20:14:25.208+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T20:14:25.217+05:30  INFO 6404 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-31T20:14:25.218+05:30  INFO 6404 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-31T20:14:25.227+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T20:14:25.229+05:30  INFO 6404 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T20:14:25.233+05:30  INFO 6404 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-31T20:14:25.243+05:30  INFO 6404 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-31T20:14:25.243+05:30  INFO 6404 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-31T20:14:28.247+05:30  INFO 6404 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-31T20:14:28.263+05:30  INFO 6404 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
+2024-08-31T20:14:28.272+05:30  INFO 6404 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-31T20:14:28.531+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 6404 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-31T20:14:28.531+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-31T20:14:29.449+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-31T20:14:29.694+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 244 ms. Found 1 JPA repository interfaces.
+2024-08-31T20:14:29.751+05:30  INFO 6404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=19966244-b081-3865-81c9-85271f8c449b
+2024-08-31T20:14:29.813+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-31T20:14:29.814+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-31T20:14:29.816+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-31T20:14:29.840+05:30  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-31T20:14:29.840+05:30  INFO 6404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2024-08-31T20:14:29.893+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-31T20:14:29.908+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c795157
+2024-08-31T20:14:29.909+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-31T20:14:29.910+05:30  INFO 6404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31T20:14:29.926+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T20:14:29.926+05:30  INFO 6404 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-31T20:14:29.928+05:30  INFO 6404 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-31T20:14:29.928+05:30  WARN 6404 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-31T20:14:29.970+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T20:14:29.995+05:30  INFO 6404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31T20:14:29.995+05:30  INFO 6404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T20:14:30.092+05:30  WARN 6404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-31T20:14:30.230+05:30  WARN 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-31T20:14:30.313+05:30  INFO 6404 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-31T20:14:30.392+05:30  WARN 6404 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-31T20:14:30.399+05:30  INFO 6404 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-31T20:14:30.402+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-31T20:14:30.402+05:30  INFO 6404 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T20:14:30.405+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T20:14:30.406+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T20:14:30.406+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T20:14:30.406+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T20:14:30.406+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T20:14:30.406+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-31T20:14:30.406+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T20:14:30.430+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T20:14:30.432+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-31T20:14:30.433+05:30  INFO 6404 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-31T20:14:30.434+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1725115470434 with initial instances count: 3
+2024-08-31T20:14:30.436+05:30  INFO 6404 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-31T20:14:30.436+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725115470436, current=UP, previous=STARTING]
+2024-08-31T20:14:30.436+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T20:14:30.440+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-31T20:14:30.441+05:30  INFO 6404 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-31T20:14:30.448+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T20:14:30.514+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Started RoomMain in 2.087 seconds (process running for 2323.038)
+2024-08-31T20:14:30.516+05:30  INFO 6404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-31T20:14:34.708+05:30  INFO 6404 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2024-08-31T20:14:34.713+05:30  INFO 6404 --- [Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ROOM-MS with eureka with status DOWN
+2024-08-31T20:14:34.714+05:30  INFO 6404 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725115474714, current=DOWN, previous=UP]
+2024-08-31T20:14:34.714+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T20:14:34.723+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T20:14:34.728+05:30  INFO 6404 --- [Thread-13] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-31T20:14:34.733+05:30  INFO 6404 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T20:14:34.734+05:30  INFO 6404 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-08-31T20:14:34.739+05:30  INFO 6404 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-08-31T20:14:34.740+05:30  INFO 6404 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-31T20:14:37.757+05:30  INFO 6404 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-31T20:14:37.774+05:30  INFO 6404 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - deregister  status: 200
+2024-08-31T20:14:37.780+05:30  INFO 6404 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-31T20:14:37.926+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Starting RoomMain using Java 17.0.11 with PID 6404 (C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms\target\classes started by hp in C:\Users\hp\eclipse-workspace\Capstoneproject\rooms-ms)
+2024-08-31T20:14:37.926+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : No active profile set, falling back to 1 default profile: "default"
+2024-08-31T20:14:38.828+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-31T20:14:39.103+05:30  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 1 JPA repository interfaces.
+2024-08-31T20:14:39.169+05:30  INFO 6404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8495cb01-e1c7-35f2-b342-c26e271ed572
+2024-08-31T20:14:39.215+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9009 (http)
+2024-08-31T20:14:39.216+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-31T20:14:39.216+05:30  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-31T20:14:39.246+05:30  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-31T20:14:39.246+05:30  INFO 6404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1318 ms
+2024-08-31T20:14:39.322+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-08-31T20:14:39.335+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@166f4d1a
+2024-08-31T20:14:39.336+05:30  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-08-31T20:14:39.337+05:30  INFO 6404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31T20:14:39.353+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T20:14:39.354+05:30  INFO 6404 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-31T20:14:39.354+05:30  INFO 6404 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-08-31T20:14:39.355+05:30  WARN 6404 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-31T20:14:39.364+05:30  INFO 6404 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-08-31T20:14:39.394+05:30  INFO 6404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31T20:14:39.394+05:30  INFO 6404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-31T20:14:39.506+05:30  WARN 6404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-31T20:14:39.666+05:30  WARN 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-31T20:14:39.762+05:30  INFO 6404 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-31T20:14:39.845+05:30  WARN 6404 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-31T20:14:39.851+05:30  INFO 6404 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-31T20:14:39.855+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-31T20:14:39.855+05:30  INFO 6404 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-31T20:14:39.856+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-31T20:14:39.857+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-31T20:14:39.857+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-31T20:14:39.857+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-31T20:14:39.857+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-31T20:14:39.857+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-31T20:14:39.857+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-31T20:14:39.882+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-31T20:14:39.883+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-31T20:14:39.884+05:30  INFO 6404 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-31T20:14:39.885+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1725115479885 with initial instances count: 3
+2024-08-31T20:14:39.887+05:30  INFO 6404 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ROOM-MS with eureka with status UP
+2024-08-31T20:14:39.887+05:30  INFO 6404 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1725115479887, current=UP, previous=STARTING]
+2024-08-31T20:14:39.887+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009: registering service...
+2024-08-31T20:14:39.891+05:30  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9009 (http) with context path ''
+2024-08-31T20:14:39.891+05:30  INFO 6404 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9009
+2024-08-31T20:14:39.899+05:30  INFO 6404 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ROOM-MS/DESKTOP-H27EDEP:ROOM-MS:9009 - registration status: 204
+2024-08-31T20:14:39.972+05:30  INFO 6404 --- [http-nio-9009-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31T20:14:39.972+05:30  INFO 6404 --- [http-nio-9009-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-31T20:14:39.973+05:30  INFO 6404 --- [http-nio-9009-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-31T20:14:39.977+05:30  INFO 6404 --- [restartedMain] com.RoomMain                             : Started RoomMain in 2.144 seconds (process running for 2332.501)
+2024-08-31T20:14:39.981+05:30  INFO 6404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-31T20:14:42.816+05:30  INFO 6404 --- [http-nio-9009-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 2739 ms
+2024-08-31T20:14:45.686+05:30  INFO 6404 --- [http-nio-9009-exec-4] com.controller.RoomController            : Request received to get rooms by location: 1
+2024-08-31T20:14:45.686+05:30  INFO 6404 --- [http-nio-9009-exec-4] com.service.RoomService                  : Finding rooms by location: 1
+2024-08-31T20:14:45.686+05:30 DEBUG 6404 --- [http-nio-9009-exec-4] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:14:45.699+05:30  WARN 6404 --- [http-nio-9009-exec-4] com.service.RoomService                  : No rooms found for location: 1
+2024-08-31T20:14:45.699+05:30  WARN 6404 --- [http-nio-9009-exec-4] com.controller.RoomController            : No rooms found in the specified location: 1
+2024-08-31T20:14:45.703+05:30  WARN 6404 --- [http-nio-9009-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: 1]
+2024-08-31T20:17:07.997+05:30  INFO 6404 --- [http-nio-9009-exec-9] com.controller.RoomController            : Request received to get rooms by location: gtgt
+2024-08-31T20:17:07.997+05:30  INFO 6404 --- [http-nio-9009-exec-9] com.service.RoomService                  : Finding rooms by location: gtgt
+2024-08-31T20:17:08.005+05:30 DEBUG 6404 --- [http-nio-9009-exec-9] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:17:08.005+05:30  WARN 6404 --- [http-nio-9009-exec-9] com.service.RoomService                  : No rooms found for location: gtgt
+2024-08-31T20:17:08.005+05:30  WARN 6404 --- [http-nio-9009-exec-9] com.controller.RoomController            : No rooms found in the specified location: gtgt
+2024-08-31T20:17:08.012+05:30  WARN 6404 --- [http-nio-9009-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: gtgt]
+2024-08-31T20:17:13.348+05:30  INFO 6404 --- [http-nio-9009-exec-7] com.controller.RoomController            : Request received to get rooms by location: 102
+2024-08-31T20:17:13.348+05:30  INFO 6404 --- [http-nio-9009-exec-7] com.service.RoomService                  : Finding rooms by location: 102
+2024-08-31T20:17:13.350+05:30 DEBUG 6404 --- [http-nio-9009-exec-7] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:17:13.352+05:30  WARN 6404 --- [http-nio-9009-exec-7] com.service.RoomService                  : No rooms found for location: 102
+2024-08-31T20:17:13.352+05:30  WARN 6404 --- [http-nio-9009-exec-7] com.controller.RoomController            : No rooms found in the specified location: 102
+2024-08-31T20:17:13.354+05:30  WARN 6404 --- [http-nio-9009-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: 102]
+2024-08-31T20:17:22.497+05:30  INFO 6404 --- [http-nio-9009-exec-10] com.controller.RoomController            : Request received to get rooms by location: 102
+2024-08-31T20:17:22.497+05:30  INFO 6404 --- [http-nio-9009-exec-10] com.service.RoomService                  : Finding rooms by location: 102
+2024-08-31T20:17:22.505+05:30 DEBUG 6404 --- [http-nio-9009-exec-10] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:17:22.505+05:30  WARN 6404 --- [http-nio-9009-exec-10] com.service.RoomService                  : No rooms found for location: 102
+2024-08-31T20:17:22.505+05:30  WARN 6404 --- [http-nio-9009-exec-10] com.controller.RoomController            : No rooms found in the specified location: 102
+2024-08-31T20:17:22.510+05:30  WARN 6404 --- [http-nio-9009-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exception.RoomNotFoundException: No rooms found in the specified location: 102]
+2024-08-31T20:17:44.772+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.controller.RoomController            : Request received to get rooms by location: hyderabad
+2024-08-31T20:17:44.776+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.service.RoomService                  : Finding rooms by location: hyderabad
+2024-08-31T20:17:44.778+05:30 DEBUG 6404 --- [http-nio-9009-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.location=?
+2024-08-31T20:17:44.809+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.service.RoomService                  : Found 2 rooms for location: hyderabad
+2024-08-31T20:17:44.809+05:30  INFO 6404 --- [http-nio-9009-exec-2] com.controller.RoomController            : Returning 2 rooms for location: hyderabad
+2024-08-31T20:18:47.121+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : Request received to get room details for room ID: 102
+2024-08-31T20:18:47.122+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : Finding room by ID: 102
+2024-08-31T20:18:47.122+05:30 DEBUG 6404 --- [http-nio-9009-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.room_id,
+        r1_0.availability_status,
+        r1_0.description,
+        r1_0.location,
+        r1_0.price,
+        r1_0.room_type 
+    from
+        rooms r1_0 
+    where
+        r1_0.room_id=?
+2024-08-31T20:18:47.122+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.service.RoomService                  : Found room with ID: 102
+2024-08-31T20:18:47.122+05:30  INFO 6404 --- [http-nio-9009-exec-1] com.controller.RoomController            : Returning details for room ID: 102
